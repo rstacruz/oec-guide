@@ -8,6 +8,9 @@ Accedited health facilities for overseas workers medical testing:
 
 ## Finding this document
 
-* https://hfsrb.doh.gov.ph/
-* https://hfsrb.doh.gov.ph/index.php/services/list-of-licensed-accredited-health-facilities
-* Ctrl+F "Overseas Workers"
+* [DOH Website](https://www.doh.gov.ph/)
+  * Actually I don't know how to get there
+* [Health Facilities and Services Regulatory Bureau](https://hfsrb.doh.gov.ph/)
+  * footer, "list of accredited"
+* [List of accredited health facilities](https://hfsrb.doh.gov.ph/index.php/services/list-of-licensed-accredited-health-facilities)
+  * Ctrl+F "Overseas Workers"

@@ -2,11 +2,11 @@
 
 These are the requirements to apply for an OEC as a "direct hire" (ie, hired without a recruitment agency):
 
-1. Passport
-2. Valid work visa / entry permit
-3. Employment contract, verified by POLO
-4. Medical certificate
-5. Pre-Departure Orientation Seminar (PDOS) from OWWA
+1. **Passport** - valid for 6 months or more
+2. **Valid work visa** - or entry permit
+3. **Employment contract** - verified by POLO
+4. **Medical certificate** - for an OFW medical exam
+5. **Pre-Departure Orientation Seminar** (PDOS) - from OWWA
 6. Additional country-specific requirements (only for Canada, USA, New Zealand, Middle East & African countries)
 
 ## Fees
