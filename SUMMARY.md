@@ -12,6 +12,12 @@
 * [Employment standards](docs/employment_standards.md)
 * POLO Verification
 
+### Other requirements
+
+* Medical certificate
+* Orientation seminar
+* Country-specific requirements
+
 ### Citations
 
 * [POEA Memorandum Circular 08](docs/memorandum_circular_08.md)
