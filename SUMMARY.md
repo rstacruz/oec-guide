@@ -12,9 +12,12 @@
 * [Employment standards](docs/employment_standards.md)
 * POLO Verification
 
+### Medical certificate
+
+* [Health facilities](docs/health_facilities.md)
+
 ### Other requirements
 
-* Medical certificate
 * Orientation seminar
 * Country-specific requirements
 
