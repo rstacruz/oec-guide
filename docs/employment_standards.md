@@ -1,0 +1,5 @@
+# Employment standards
+
+The "Employment Standards" are defined in the [Revised POEA Rules 2016](http://www.poea.gov.ph/laws&rules/files/Revised%20POEA%20Rules%20And%20Regulations.pdf), page 35, part V, section 135. It's also available in [Memorandum Circular No. 08, Series of 2018, Implementing Guidelines on the Regisrtation of Direct-Hire OFWs](http://www.poea.gov.ph/memorandumcirculars/2018/MC-08-2018.pdf), page 2, section II.
+
+> ![image](https://user-images.githubusercontent.com/74385/40554478-6c8a76fc-6078-11e8-995e-ef304e51322e.png)
