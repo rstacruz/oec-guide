@@ -24,5 +24,5 @@
 ### Citations
 
 * [POEA Memorandum Circular 08](docs/memorandum_circular_08.md)
-* [ONAR Bulletin Vol. 8 Nov. 9](docs/effectivity_of_memorandum_circular_08.md)
+* [ONAR Bulletin Vol. 8 No. 19](docs/effectivity_of_memorandum_circular_08.md)
 * [Revised POEA Rules of 2016](docs/revised_poea_rules_of_2016.md)
