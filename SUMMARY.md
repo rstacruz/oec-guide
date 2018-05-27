@@ -1,6 +1,7 @@
 # Summary
 
 * [OEC Guide](README.md)
+* [Checklist](docs/checklist.md)
 
 ### Introduction
 
