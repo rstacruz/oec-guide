@@ -1,3 +1,6 @@
 {
-  "title": "OEC Guide"
+  "title": "OEC Guide",
+  "plugins": [
+    "advanced-emoji"
+  ]
 }

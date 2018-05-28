@@ -2,7 +2,7 @@
 
 When going to POEA offices, the direct hire department may assert that there's a ban on direct hires. Be aware that skilled workers are exempted from this ban, even if POEA officers may tell you otherwise.
 
-If POEA officers assert that they can't accept OEC applications due to the direct hire ban, refer to the rules below. They can be found on the [Revised POEA Rules of 2016](http://www.poea.gov.ph/laws&rules/files/Revised%20POEA%20Rules%20And%20Regulations.pdf), page 31.
+If POEA officers assert that they can't accept OEC applications due to the direct hire ban, bring citations for to the rules below. These are taken from the [Revised POEA Rules and Regulations of 2016](http://www.poea.gov.ph/laws&rules/files/Revised%20POEA%20Rules%20And%20Regulations.pdf), page 31.
 
 ## Direct hire ban rules
 
