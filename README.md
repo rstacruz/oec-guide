@@ -6,4 +6,6 @@ To leave the Philippines as a Filipino with work abroad, you need an OEC (Overse
 
 This document outlines how you can get one as a skilled worker.
 
-> Rico Sta. Cruz (@rstacruz)
+&mdash; Rico Sta. Cruz (@rstacruz)
+
+> Next: [Direct hire requirements](./docs/direct_hire_evaluation.md)
