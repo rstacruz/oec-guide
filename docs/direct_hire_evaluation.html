@@ -590,7 +590,7 @@ CLEARANCE[<b>POEA clearance</b>]
 PEME[<b>PEME</b><br>Medical exam]
 click PEME &quot;./medical_exam.html&quot; &quot;Medical exam&quot;
 
-CONTRACT(<b>Contract<br>verification<br>requirements</b>)
+CONTRACT(<b>POLO<br>Contract<br>verification</b>)
 VERIFIED[&quot;<b>Verified contract</b><br>Verified by the<br>POLO (PH Overseas<br>Labor Office)&quot;]
 click VERIFIED &quot;./polo_verification.html&quot; &quot;Verified contract&quot;
 REVISED[&quot;<b>Revised contract</b><br>With POEA-required<br>revisions&quot;]
@@ -598,17 +598,16 @@ click REVISED &quot;./employment_standards.html&quot; &quot;Revised contract&quo
 CERTIFICATION[&quot;<b>Employer certification</b><br>Showing they hired 5<br>Filipinos max&quot;]
 COMPLIANCE[&quot;<b>POEA Compliance Sheet</b><br>To cover POEA requirements<br>missing in contract&quot;]
 
-ODOCS(<b>Documents</b>)
+ODOCS(&quot; &quot;)
 PASSPORT[&quot;<b>Passport</b><br>Valid for 6+ months&quot;]
 VISA[&quot;<b>Work visa</b><br>or entry permit&quot;]
 
-SDOCS(<b>Supporting<br>documents</b>)
 ENDORSEMENT[&quot;<b>POLO endorsement</b><br>Endorsement letter&quot;]
 click ENDORSEMENT &quot;./polo_endorsement.html&quot; &quot;POLO endorsement&quot;
 STATEMENT[&quot;<b>Notarized statement</b><br>Describe how you got the job&quot;]
-EMPLOYERID[&quot;<b>Employer&apos;s ID</b><br>Required for notarization&quot;]
+EMPLOYERID[&quot;<b>Employer&apos;s ID</b><br>Drivers license or passport&quot;]
 
-JOBDOCS(<b>Job-related<br>documents</b>)
+JOBDOCS(&quot; &quot;)
 CV[&quot;<b>Resume / CV</b>&quot;]
 PRC[&quot;<b>PRC License</b><br>(PH Regulatory Commission)&quot;]
 DIPLOMA[&quot;<b>Diploma</b><br>and Transcript of Records&quot;]
@@ -622,44 +621,42 @@ EVAL2 --- CLEARANCE
 EVAL2 --- PEME
 
 EVAL2 === EVAL1
-EVAL1 --- JOBDOCS
-EVAL1 --- ODOCS
-EVAL1 --- SDOCS
-VERIFIED --- CONTRACT
+EVAL1 === JOBDOCS
+EVAL1 === ODOCS
+VERIFIED === CONTRACT
 
-subgraph Job documents
-JOBDOCS --- VERIFIED
+subgraph For POEA evaluation
+JOBDOCS --- STATEMENT
 JOBDOCS --- CV
 JOBDOCS --- PRC
+JOBDOCS === VERIFIED
 JOBDOCS --- DIPLOMA
-JOBDOCS --- PROFILE
+JOBDOCS --- ENDORSEMENT
 end
 
-subgraph Documents
+subgraph For POLO and POEA
 ODOCS --- PASSPORT
 ODOCS --- VISA
+ODOCS --- PROFILE
 end
 
-subgraph Supporting documents
-SDOCS --- ENDORSEMENT
-SDOCS --- STATEMENT
-STATEMENT --- EMPLOYERID
-end
-
-subgraph POLO requirements
+subgraph For POLO verification
+CONTRACT --- EMPLOYERID
 CONTRACT --- REVISED
 CONTRACT --- CERTIFICATION
 CONTRACT --- COMPLIANCE
 end
 
+CONTRACT --- ODOCS
+STATEMENT -.- |Needed for notarization| EMPLOYERID
+
 style OEC fill:#fff,stroke:#3bd,stroke-width:9px
 style EVAL1 fill:#fff,stroke:#3bd,stroke-width:9px
 style EVAL2 fill:#fff,stroke:#3bd,stroke-width:9px
+style CONTRACT fill:#fff,stroke:#d3b,stroke-width:9px
 
-style ODOCS fill:#fff,stroke:#3bd,stroke-width:2px
-style SDOCS fill:#fff,stroke:#3bd,stroke-width:2px
-style JOBDOCS fill:#fff,stroke:#3bd,stroke-width:2px
-style CONTRACT fill:#fff,stroke:#3bd,stroke-width:2px
+style ODOCS fill:#333,stroke-width:0
+style JOBDOCS fill:#333,stroke-width:0
 </div>
 
 <h2 id="may-2018-checklist">May 2018 checklist</h2>
@@ -711,7 +708,7 @@ style CONTRACT fill:#fff,stroke:#3bd,stroke-width:2px
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Evaluation requirements","level":"2.1.1","depth":2,"next":{"title":"Direct hire ban","level":"2.1.2","depth":2,"path":"docs/direct_hire_exception.md","ref":"docs/direct_hire_exception.md","articles":[]},"previous":{"title":"Direct hires","level":"2.1","depth":1,"path":"docs/direct_hire.md","ref":"docs/direct_hire.md","articles":[{"title":"Evaluation requirements","level":"2.1.1","depth":2,"path":"docs/direct_hire_evaluation.md","ref":"docs/direct_hire_evaluation.md","articles":[]},{"title":"Direct hire ban","level":"2.1.2","depth":2,"path":"docs/direct_hire_exception.md","ref":"docs/direct_hire_exception.md","articles":[]},{"title":"POLO endorsement","level":"2.1.3","depth":2,"path":"docs/polo_endorsement.md","ref":"docs/polo_endorsement.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["advanced-emoji","anchorjs","mermaid-gb3"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"mermaid-gb3":{},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchorjs":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"OEC Guide","gitbook":"*"},"file":{"path":"docs/direct_hire_evaluation.md","mtime":"2018-05-29T11:31:29.659Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-29T11:34:48.516Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Evaluation requirements","level":"2.1.1","depth":2,"next":{"title":"Direct hire ban","level":"2.1.2","depth":2,"path":"docs/direct_hire_exception.md","ref":"docs/direct_hire_exception.md","articles":[]},"previous":{"title":"Direct hires","level":"2.1","depth":1,"path":"docs/direct_hire.md","ref":"docs/direct_hire.md","articles":[{"title":"Evaluation requirements","level":"2.1.1","depth":2,"path":"docs/direct_hire_evaluation.md","ref":"docs/direct_hire_evaluation.md","articles":[]},{"title":"Direct hire ban","level":"2.1.2","depth":2,"path":"docs/direct_hire_exception.md","ref":"docs/direct_hire_exception.md","articles":[]},{"title":"POLO endorsement","level":"2.1.3","depth":2,"path":"docs/polo_endorsement.md","ref":"docs/polo_endorsement.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["advanced-emoji","anchorjs","mermaid-gb3"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"mermaid-gb3":{},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchorjs":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"OEC Guide","gitbook":"*"},"file":{"path":"docs/direct_hire_evaluation.md","mtime":"2018-05-29T13:19:03.057Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-29T13:20:24.146Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
