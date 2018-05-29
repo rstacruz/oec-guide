@@ -1,4 +1,4 @@
-# Pr-Employment Medical Examination (PEME)
+# Pre-Employment Medical Examination (PEME)
 
 You need a medical certificate as part of the requirements for obtaining an OEC certificate. This involves a physical examination. This is stipulated in [POEA Memorandum Circular No. 08 of 2018](./memorandum_circular_08.md), section IV.
 

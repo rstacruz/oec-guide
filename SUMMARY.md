@@ -29,12 +29,12 @@
 
 * Seminars
 
-  * Pre-Departure Orientation Seminar (PDOS)
-  * Pre-Employment Orientation Seminar (PDOS)
+  * [Pre-departure (PDOS)](docs/pre_departure_orientation_seminar.md)
+  * [Pre-employment (PEOS)](docs/pre_employment_orientation_seminar.md)
 
 * Other
 
-  * [Pre-Employment Medical Examination (PEME)](docs/medical_exam.md)
+  * [Medical exam (PEME)](docs/medical_exam.md)
   * POEA Clearance
 
 ---

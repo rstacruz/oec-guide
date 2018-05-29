@@ -1,16 +1,23 @@
-# Direct hire evaluation
+# *Direct hires* Evaluation requirements
 
 **To acquire an OEC, you need to first be evaluated by the Direct Hire department of the POEA offices in EDSA.** To be evaluated, you'll need to submit all the documents in their checklist (phase I), and attend seminars and medical exams (phase 2).
 
 ## Dependency graph
+
+Here's a list of documents needed, as collected from the [POEA evaluation requirements](./evaluation_requirements.md) and [POLO verification requirements](./polo_requirements.md).
 
 ```mermaid
 graph RL
 OEC("<b>OEC</b><br>Overseas<br>Employment<br>Certificate")
 EVAL1(<b>POEA<br>Evaluation<br>phase 1</b>)
 EVAL2(<b>POEA<br>Evaluation<br>phase 2</b>)
+
 PDOS[<b>PDOS</b><br>Pre-departure seminar]
+click PDOS "./pre_departure_orientation_seminar.html" "Pre-departure seminar"
+
 PEOS[<b>PEOS</b><br>Pre-employment seminar]
+click PEOS "./pre_employment_orientation_seminar.html" "Pre-employment seminar"
+
 CLEARANCE[<b>POEA clearance</b>]
 
 PEME[<b>PEME</b><br>Medical exam]
@@ -34,10 +41,13 @@ VISA["<b>Work visa</b><br>or entry permit"]
 
 ENDORSEMENT["<b>POLO endorsement</b><br>Endorsement letter"]
 click ENDORSEMENT "./polo_endorsement.html" "POLO endorsement"
+
 INSURANCE["<b>Proof of insurance</b><br>Endorsement letter"]
 click INSURANCE "./proof_of_insurance.html" "Proof of insurance"
+
 STATEMENT["<b>Notarized statement</b><br>Describe how you got the job"]
 click STATEMENT "./notarized_statement.html" "Notarized statement"
+
 EMPLOYERID["<b>Employer's ID</b><br>Drivers license or passport"]
 
 JOBDOCS(" ")
@@ -99,7 +109,9 @@ style JOBDOCS fill:#333,stroke-width:0
 
 ## May 2018 checklist
 
-As of May 2018, this department issues a checklist of requirements. See: [Evaluation requirements](./evaluation_requirements.md). :warning: The list of requirements on the POEA website [is outdated](./skilled_worker_requirements_outdated.md).
+As of May 2018, this department issues a checklist of requirements. See: [Evaluation requirements](./evaluation_requirements.md).
+
+:warning: Avoid consulting the POEA website; their checklist [is outdated](./skilled_worker_requirements_outdated.md).
 
 <br>
 
