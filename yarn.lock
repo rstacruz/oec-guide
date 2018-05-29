@@ -940,6 +940,10 @@ gitbook-plugin-advanced-emoji@^0.2.2:
   dependencies:
     emojify.js "^1.1.0"
 
+gitbook-plugin-anchorjs@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/gitbook-plugin-anchorjs/-/gitbook-plugin-anchorjs-2.0.0.tgz#00f279d4f33ac177b432ce38fd73f3834d7dd4c0"
+
 github-url-from-git@~1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/github-url-from-git/-/github-url-from-git-1.4.0.tgz#285e6b520819001bde128674704379e4ff03e0de"

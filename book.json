@@ -1,6 +1,4 @@
 {
   "title": "OEC Guide",
-  "plugins": [
-    "advanced-emoji"
-  ]
+  "plugins": ["advanced-emoji", "anchorjs"]
 }
