@@ -9,7 +9,7 @@
     "build": "gitbook build",
     "build:pdf": "gitbook pdf ./ _book/oec-guide.pdf",
     "deploy:gh-pages": "gh-pages -d _book",
-    "deploy": "run-s build build:pdf deploy:gh-pages"
+    "deploy": "run-s build deploy:gh-pages"
   },
   "keywords": [],
   "author": "Rico Sta. Cruz <rstacruz@users.noreply.github.com>",
