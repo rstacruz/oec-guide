@@ -16,7 +16,7 @@ CLEARANCE[<b>POEA clearance</b>]
 PEME[<b>PEME</b><br>Medical exam]
 click PEME "./medical_exam.html" "Medical exam"
 
-CONTRACT(<b>Contract<br>verification<br>requirements</b>)
+CONTRACT(<b>POLO<br>Contract<br>verification</b>)
 VERIFIED["<b>Verified contract</b><br>Verified by the<br>POLO (PH Overseas<br>Labor Office)"]
 click VERIFIED "./polo_verification.html" "Verified contract"
 REVISED["<b>Revised contract</b><br>With POEA-required<br>revisions"]
@@ -24,17 +24,16 @@ click REVISED "./employment_standards.html" "Revised contract"
 CERTIFICATION["<b>Employer certification</b><br>Showing they hired 5<br>Filipinos max"]
 COMPLIANCE["<b>POEA Compliance Sheet</b><br>To cover POEA requirements<br>missing in contract"]
 
-ODOCS(<b>Documents</b>)
+ODOCS(" ")
 PASSPORT["<b>Passport</b><br>Valid for 6+ months"]
 VISA["<b>Work visa</b><br>or entry permit"]
 
-SDOCS(<b>Supporting<br>documents</b>)
 ENDORSEMENT["<b>POLO endorsement</b><br>Endorsement letter"]
 click ENDORSEMENT "./polo_endorsement.html" "POLO endorsement"
 STATEMENT["<b>Notarized statement</b><br>Describe how you got the job"]
-EMPLOYERID["<b>Employer's ID</b><br>Required for notarization"]
+EMPLOYERID["<b>Employer's ID</b><br>Drivers license or passport"]
 
-JOBDOCS(<b>Job-related<br>documents</b>)
+JOBDOCS(" ")
 CV["<b>Resume / CV</b>"]
 PRC["<b>PRC License</b><br>(PH Regulatory Commission)"]
 DIPLOMA["<b>Diploma</b><br>and Transcript of Records"]
@@ -48,44 +47,42 @@ EVAL2 --- CLEARANCE
 EVAL2 --- PEME
 
 EVAL2 === EVAL1
-EVAL1 --- JOBDOCS
-EVAL1 --- ODOCS
-EVAL1 --- SDOCS
-VERIFIED --- CONTRACT
+EVAL1 === JOBDOCS
+EVAL1 === ODOCS
+VERIFIED === CONTRACT
 
-subgraph Job documents
-JOBDOCS --- VERIFIED
+subgraph For POEA evaluation
+JOBDOCS --- STATEMENT
 JOBDOCS --- CV
 JOBDOCS --- PRC
+JOBDOCS === VERIFIED
 JOBDOCS --- DIPLOMA
-JOBDOCS --- PROFILE
+JOBDOCS --- ENDORSEMENT
 end
 
-subgraph Documents
+subgraph For POLO and POEA
 ODOCS --- PASSPORT
 ODOCS --- VISA
+ODOCS --- PROFILE
 end
 
-subgraph Supporting documents
-SDOCS --- ENDORSEMENT
-SDOCS --- STATEMENT
-STATEMENT --- EMPLOYERID
-end
-
-subgraph POLO requirements
+subgraph For POLO verification
+CONTRACT --- EMPLOYERID
 CONTRACT --- REVISED
 CONTRACT --- CERTIFICATION
 CONTRACT --- COMPLIANCE
 end
 
+CONTRACT --- ODOCS
+STATEMENT -.- |Needed for notarization| EMPLOYERID
+
 style OEC fill:#fff,stroke:#3bd,stroke-width:9px
 style EVAL1 fill:#fff,stroke:#3bd,stroke-width:9px
 style EVAL2 fill:#fff,stroke:#3bd,stroke-width:9px
+style CONTRACT fill:#fff,stroke:#d3b,stroke-width:9px
 
-style ODOCS fill:#fff,stroke:#3bd,stroke-width:2px
-style SDOCS fill:#fff,stroke:#3bd,stroke-width:2px
-style JOBDOCS fill:#fff,stroke:#3bd,stroke-width:2px
-style CONTRACT fill:#fff,stroke:#3bd,stroke-width:2px
+style ODOCS fill:#333,stroke-width:0
+style JOBDOCS fill:#333,stroke-width:0
 ```
 
 ## May 2018 checklist
