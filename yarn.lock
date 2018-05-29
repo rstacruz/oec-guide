@@ -112,6 +112,16 @@ array-reduce@~0.0.0:
   version "0.0.0"
   resolved "https://registry.yarnpkg.com/array-reduce/-/array-reduce-0.0.0.tgz#173899d3ffd1c7d9383e4479525dbe278cab5f2b"
 
+array-union@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/array-union/-/array-union-1.0.2.tgz#9a34410e4f4e3da23dea375be5be70f24778ec39"
+  dependencies:
+    array-uniq "^1.0.1"
+
+array-uniq@^1.0.1:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/array-uniq/-/array-uniq-1.0.3.tgz#af6ac877a25cc7f74e058894753858dfdb24fdb6"
+
 asap@^2.0.0:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
@@ -133,6 +143,12 @@ async-some@~1.0.2:
   resolved "https://registry.yarnpkg.com/async-some/-/async-some-1.0.2.tgz#4d8a81620d5958791b5b98f802d3207776e95509"
   dependencies:
     dezalgo "^1.0.2"
+
+async@2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/async/-/async-2.6.0.tgz#61a29abb6fcc026fea77e56d1c6ec53a795951f4"
+  dependencies:
+    lodash "^4.14.0"
 
 async@^2.0.1:
   version "2.6.1"
@@ -159,6 +175,10 @@ aws4@^1.2.1, aws4@^1.6.0:
 balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
+
+base64url@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/base64url/-/base64url-2.0.0.tgz#eac16e03ea1438eff9423d69baa36262ed1f70bb"
 
 bash-color@0.0.4:
   version "0.0.4"
@@ -499,6 +519,26 @@ cyclist@~0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/cyclist/-/cyclist-0.2.2.tgz#1b33792e11e914a2fd6d6ed6447464444e5fa640"
 
+d3@3.5.17:
+  version "3.5.17"
+  resolved "https://registry.yarnpkg.com/d3/-/d3-3.5.17.tgz#bc46748004378b21a360c9fc7cf5231790762fb8"
+
+dagre-d3-renderer@^0.4.25:
+  version "0.4.26"
+  resolved "https://registry.yarnpkg.com/dagre-d3-renderer/-/dagre-d3-renderer-0.4.26.tgz#648a491209b853ae96ddf3fea41a1f104479a5a1"
+  dependencies:
+    d3 "3.5.17"
+    dagre-layout "^0.8.0"
+    graphlib "^2.1.1"
+    lodash "^4.17.4"
+
+dagre-layout@^0.8.0:
+  version "0.8.8"
+  resolved "https://registry.yarnpkg.com/dagre-layout/-/dagre-layout-0.8.8.tgz#9b6792f24229f402441c14162c1049e3f261f6d9"
+  dependencies:
+    graphlibrary "^2.2.0"
+    lodash "^4.17.5"
+
 dashdash@^1.12.0:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/dashdash/-/dashdash-1.14.1.tgz#853cfa0f7cbe2fed5de20326b8dd581035f6e2f0"
@@ -761,6 +801,14 @@ fs-extra@3.0.1:
     jsonfile "^3.0.0"
     universalify "^0.1.0"
 
+fs-extra@^4.0.2:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-4.0.3.tgz#0d852122e5bc5beb453fb028e9c0c9bf36340c94"
+  dependencies:
+    graceful-fs "^4.1.2"
+    jsonfile "^4.0.0"
+    universalify "^0.1.0"
+
 fs-vacuum@~1.2.10, fs-vacuum@~1.2.9:
   version "1.2.10"
   resolved "https://registry.yarnpkg.com/fs-vacuum/-/fs-vacuum-1.2.10.tgz#b7629bec07a4031a2548fdf99f5ecf1cc8b31e36"
@@ -878,6 +926,18 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
+gh-pages@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/gh-pages/-/gh-pages-1.1.0.tgz#738134d8e35e5323b39892cda28b8904e85f24b2"
+  dependencies:
+    async "2.6.0"
+    base64url "^2.0.0"
+    commander "2.11.0"
+    fs-extra "^4.0.2"
+    globby "^6.1.0"
+    graceful-fs "4.1.11"
+    rimraf "^2.6.2"
+
 gitbook-cli@^2.3.2:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/gitbook-cli/-/gitbook-cli-2.3.2.tgz#5e893582e1f743f6fa920c3c3eb36b62ea4a31a0"
@@ -899,6 +959,16 @@ gitbook-plugin-advanced-emoji@^0.2.2:
   resolved "https://registry.yarnpkg.com/gitbook-plugin-advanced-emoji/-/gitbook-plugin-advanced-emoji-0.2.2.tgz#08bcc69f62a749cd69204435276518c941c319e3"
   dependencies:
     emojify.js "^1.1.0"
+
+gitbook-plugin-anchorjs@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/gitbook-plugin-anchorjs/-/gitbook-plugin-anchorjs-2.0.0.tgz#00f279d4f33ac177b432ce38fd73f3834d7dd4c0"
+
+gitbook-plugin-mermaid-gb3@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/gitbook-plugin-mermaid-gb3/-/gitbook-plugin-mermaid-gb3-2.1.0.tgz#f2efc846021e527295d5fb723093e5db25f796a0"
+  dependencies:
+    mermaid "^7.0.7"
 
 github-url-from-git@~1.4.0:
   version "1.4.0"
@@ -930,6 +1000,16 @@ glob@~7.0.6:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
+globby@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/globby/-/globby-6.1.0.tgz#f5a6d70e8395e21c858fb0489d64df02424d506c"
+  dependencies:
+    array-union "^1.0.1"
+    glob "^7.0.3"
+    object-assign "^4.0.1"
+    pify "^2.0.0"
+    pinkie-promise "^2.0.0"
+
 got@^6.7.1:
   version "6.7.1"
   resolved "https://registry.yarnpkg.com/got/-/got-6.7.1.tgz#240cd05785a9a18e561dc1b44b41c763ef1e8db0"
@@ -946,9 +1026,21 @@ got@^6.7.1:
     unzip-response "^2.0.1"
     url-parse-lax "^1.0.0"
 
-graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@~4.1.11, graceful-fs@~4.1.6:
+graceful-fs@4.1.11, graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@~4.1.11, graceful-fs@~4.1.6:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
+
+graphlib@^2.1.1:
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/graphlib/-/graphlib-2.1.5.tgz#6afe1afcc5148555ec799e499056795bd6938c87"
+  dependencies:
+    lodash "^4.11.1"
+
+graphlibrary@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/graphlibrary/-/graphlibrary-2.2.0.tgz#017a14899775228dec4497a39babfdd6bf56eac6"
+  dependencies:
+    lodash "^4.17.5"
 
 har-schema@^1.0.5:
   version "1.0.5"
@@ -1013,6 +1105,10 @@ hawk@~3.1.3:
     cryptiles "2.x.x"
     hoek "2.x.x"
     sntp "1.x.x"
+
+he@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/he/-/he-1.1.1.tgz#93410fd21b009735151f8868c2f271f3427e23fd"
 
 hoek@2.x.x:
   version "2.16.3"
@@ -1261,6 +1357,12 @@ jsonfile@^3.0.0:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
+jsonfile@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/jsonfile/-/jsonfile-4.0.0.tgz#8771aae0799b64076b76640fca058f9c10e33ecb"
+  optionalDependencies:
+    graceful-fs "^4.1.6"
+
 jsonify@~0.0.0:
   version "0.0.0"
   resolved "https://registry.yarnpkg.com/jsonify/-/jsonify-0.0.0.tgz#2c74b6ee41d93ca51b7b5aaee8f503631d252a73"
@@ -1354,7 +1456,7 @@ lodash@4.17.4:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
-lodash@^4.17.10:
+lodash@^4.11.1, lodash@^4.14.0, lodash@^4.17.10, lodash@^4.17.4, lodash@^4.17.5:
   version "4.17.10"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
 
@@ -1405,6 +1507,17 @@ map-stream@~0.1.0:
 memorystream@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/memorystream/-/memorystream-0.3.1.tgz#86d7090b30ce455d63fbae12dda51a47ddcaf9b2"
+
+mermaid@^7.0.7:
+  version "7.1.2"
+  resolved "https://registry.yarnpkg.com/mermaid/-/mermaid-7.1.2.tgz#6265728156c2e0891e004cba60a44022174487ad"
+  dependencies:
+    d3 "3.5.17"
+    dagre-d3-renderer "^0.4.25"
+    dagre-layout "^0.8.0"
+    he "^1.1.1"
+    lodash "^4.17.4"
+    moment "^2.20.1"
 
 mime-db@~1.33.0:
   version "1.33.0"
@@ -1469,6 +1582,10 @@ mississippi@^2.0.0:
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   dependencies:
     minimist "0.0.8"
+
+moment@^2.20.1:
+  version "2.22.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.22.1.tgz#529a2e9bf973f259c9643d237fda84de3a26e8ad"
 
 move-concurrently@^1.0.1, move-concurrently@~1.0.1:
   version "1.0.1"
@@ -1885,7 +2002,7 @@ oauth-sign@~0.8.1, oauth-sign@~0.8.2:
   version "0.8.2"
   resolved "https://registry.yarnpkg.com/oauth-sign/-/oauth-sign-0.8.2.tgz#46a6ab7f0aead8deae9ec0565780b7d4efeb9d43"
 
-object-assign@^4.1.0:
+object-assign@^4.0.1, object-assign@^4.1.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
 
@@ -2010,6 +2127,10 @@ performance-now@^0.2.0:
 performance-now@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
+
+pify@^2.0.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
 
 pify@^3.0.0:
   version "3.0.0"
