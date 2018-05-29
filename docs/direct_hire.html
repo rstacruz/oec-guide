@@ -155,7 +155,20 @@
                 <a href="direct_hire_exception.html">
             
                     
-                    Direct hire exception
+                    Direct hire ban
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="polo_endorsement.html">
+            
+                <a href="polo_endorsement.html">
+            
+                    
+                    POLO endorsement
             
                 </a>
             
@@ -200,7 +213,7 @@
                 <a href="polo_requirements.html">
             
                     
-                    Verification requirements
+                    POLO requirements
             
                 </a>
             
@@ -245,7 +258,7 @@
                 <span>
             
                     
-                    POLO endorsement
+                    Notarized statement
             
                 </span>
             
@@ -258,7 +271,20 @@
                 <span>
             
                     
-                    Notarized statement
+                    PRC license
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" >
+            
+                <span>
+            
+                    
+                    Company profile
             
                 </span>
             
@@ -550,22 +576,38 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="direct-hires">Direct hires</h1>
+<p>POEA processes OEC&apos;s for <strong>Agency Hires</strong> and <strong>Direct Hires.</strong> If you didn&apos;t get your work visa through a recruitment agency, then you&apos;re a direct hire. Direct hires will need to coordinate with two government agencies:</p>
+<ul>
+<li><strong>Philippine Overseas Employment Administration</strong> (POEA) in Manila, and</li>
+<li><strong>Philippine Overseas Labor Office</strong> (POLO) abroad.</li>
+</ul>
+<h2 id="the-process">The process</h2>
+<p>You need to acquire a verified contract from POLO, then go through 2 phases of evaluation in the POEA offices. There are many requirements along the way. See this diagram below for an overview:</p>
 <div class="mermaid">
 sequenceDiagram
+  participant POLO as POLO
   participant Employee
-  participant POEA
+  participant POEA as POEA
 
-    Note over Employee: Collect requirements
-  Employee-&gt;&gt;POEA: Send docs for evaluation
-    Note over POEA: Evaluation phase 1
+    Employee-&gt;&gt;+POLO: Send contract (via employer)
+    Note right of POLO: Verify contract
+    POLO-&gt;&gt;-Employee: Send contract (via employer)
+    POLO-&gt;&gt;Employee: Send endorsement letter
+
     Note over Employee: Collect more requirements
-  Employee-&gt;&gt;POEA: Send new docs for evaluation
-    Note over POEA: Evaluation phase 2
-    POEA-&gt;&gt;Employee: Get OEC
+    Employee-&gt;&gt;+POEA: Send docs for evaluation
+    Note left of POEA: Evaluation phase 1
+    POEA-&gt;&gt;-Employee: Approve phase 1
+
+    Note over Employee: Do seminars
+    Note over Employee: Medical exam
+    Employee-&gt;&gt;+POEA: Send new docs for evaluation
+    Note left of POEA: Evaluation phase 2
+    POEA-&gt;&gt;-Employee: Final approval
 </div>
 
 <blockquote>
-<p>Next: <a href="direct_hire_evaluation.html">Evaluation requirements</a></p>
+<p>Next: Review the <a href="direct_hire_evaluation.html">Evaluation requirements</a> to understand what documents will be needed.</p>
 </blockquote>
 
                                 
@@ -610,7 +652,7 @@ sequenceDiagram
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Direct hires","level":"2.1","depth":1,"next":{"title":"Evaluation requirements","level":"2.1.1","depth":2,"path":"docs/direct_hire_evaluation.md","ref":"docs/direct_hire_evaluation.md","articles":[]},"previous":{"title":"OEC Guide","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["advanced-emoji","anchorjs","mermaid-gb3"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"mermaid-gb3":{},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchorjs":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"OEC Guide","gitbook":"*"},"file":{"path":"docs/direct_hire.md","mtime":"2018-05-29T10:31:53.402Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-29T10:32:07.750Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Direct hires","level":"2.1","depth":1,"next":{"title":"Evaluation requirements","level":"2.1.1","depth":2,"path":"docs/direct_hire_evaluation.md","ref":"docs/direct_hire_evaluation.md","articles":[]},"previous":{"title":"OEC Guide","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["advanced-emoji","anchorjs","mermaid-gb3"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"mermaid-gb3":{},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchorjs":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"OEC Guide","gitbook":"*"},"file":{"path":"docs/direct_hire.md","mtime":"2018-05-29T11:15:47.133Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-29T11:34:48.516Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
