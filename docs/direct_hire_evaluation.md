@@ -16,11 +16,13 @@ CLEARANCE[<b>POEA clearance</b>]
 PEME[<b>PEME</b><br>Medical exam]
 click PEME "./medical_exam.html" "Medical exam"
 
-CONTRACT(<b>Contract<br>requirements</b>)
+CONTRACT(<b>Contract<br>verification<br>requirements</b>)
 VERIFIED["<b>Verified contract</b><br>Verified by the<br>POLO (PH Overseas<br>Labor Office)"]
 click VERIFIED "./polo_verification.html" "Verified contract"
 REVISED["<b>Revised contract</b><br>With POEA-required<br>revisions"]
 click REVISED "./employment_standards.html" "Revised contract"
+CERTIFICATION["<b>Employer certification</b><br>Showing they hired 5<br>Filipinos max"]
+COMPLIANCE["<b>POEA Compliance Sheet</b><br>To cover POEA requirements<br>missing in contract"]
 
 ODOCS(<b>Documents</b>)
 PASSPORT["<b>Passport</b><br>Valid for 6+ months"]
@@ -28,6 +30,7 @@ VISA["<b>Work visa</b><br>or entry permit"]
 
 SDOCS(<b>Supporting<br>documents</b>)
 ENDORSEMENT["<b>POLO endorsement</b><br>Endorsement letter"]
+click ENDORSEMENT "./polo_endorsement.html" "POLO endorsement"
 STATEMENT["<b>Notarized statement</b><br>Describe how you got the job"]
 EMPLOYERID["<b>Employer's ID</b><br>Required for notarization"]
 
@@ -48,9 +51,10 @@ EVAL2 === EVAL1
 EVAL1 --- JOBDOCS
 EVAL1 --- ODOCS
 EVAL1 --- SDOCS
-EVAL1 --- CONTRACT
+VERIFIED --- CONTRACT
 
 subgraph Job documents
+JOBDOCS --- VERIFIED
 JOBDOCS --- CV
 JOBDOCS --- PRC
 JOBDOCS --- DIPLOMA
@@ -68,9 +72,10 @@ SDOCS --- STATEMENT
 STATEMENT --- EMPLOYERID
 end
 
-subgraph Contract requirements
-CONTRACT --- VERIFIED
-VERIFIED --- REVISED
+subgraph POLO requirements
+CONTRACT --- REVISED
+CONTRACT --- CERTIFICATION
+CONTRACT --- COMPLIANCE
 end
 
 style OEC fill:#fff,stroke:#3bd,stroke-width:9px
@@ -88,3 +93,5 @@ style CONTRACT fill:#fff,stroke:#3bd,stroke-width:2px
 As of May 2018, this department issues a checklist of requirements. See: [Evaluation requirements](./evaluation_requirements.md). :warning: The list of requirements on the POEA website [is outdated](./skilled_worker_requirements_outdated.md).
 
 <br>
+
+> Next: Find out about the [direct hire ban](./direct_hire_exception.md), and how you can circumvent it.

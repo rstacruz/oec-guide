@@ -7,18 +7,20 @@
 * [Direct hires](docs/direct_hire.md)
 
   * [Evaluation requirements](docs/direct_hire_evaluation.md)
-  * [Direct hire exception](docs/direct_hire_exception.md)
+  * [Direct hire ban](docs/direct_hire_exception.md)
+  * [POLO endorsement](docs/polo_endorsement.md)
 
 * [Contract](docs/contract.md)
 
   * [Employment standards](docs/employment_standards.md)
-  * [Verification requirements](docs/polo_requirements.md)
+  * [POLO requirements](docs/polo_requirements.md)
   * [Verification process](docs/polo_verification.md)
 
 * Documents
 
-  * POLO endorsement
   * Notarized statement
+  * PRC license
+  * Company profile
 
 ### Phase II
 
