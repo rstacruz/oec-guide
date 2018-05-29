@@ -1,4 +1,4 @@
-# Employment standards
+# *Contract verification* Employment standards
 
 To get your contract verified by the Philippine Overseas Labor Office (POLO), your employment contract should meet the "Employment Standards" defined by the POEA.
 
