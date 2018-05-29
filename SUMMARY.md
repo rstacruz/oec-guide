@@ -14,13 +14,16 @@
 
   * [Employment standards](docs/employment_standards.md)
   * [POLO requirements](docs/polo_requirements.md)
+  * POEA compliance sheet
   * [Verification process](docs/polo_verification.md)
 
 * Documents
 
-  * Notarized statement
+  * [Proof of insurance](docs/proof_of_insurance.md)
+  * [Notarized statement](docs/notarized_statement.md)
   * PRC license
   * Company profile
+  * Country-specific requirements
 
 ### Phase II
 
@@ -33,7 +36,6 @@
 
   * [Pre-Employment Medical Examination (PEME)](docs/medical_exam.md)
   * POEA Clearance
-  * Country-specific requirements
 
 ---
 

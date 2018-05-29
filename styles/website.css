@@ -673,3 +673,16 @@ nav[role="navigation"] > .summary > .chapter > a {
   text-decoration: none;
   background: rgb(54, 218, 128);
 }
+
+/*
+ * SVG
+ */
+
+svg g.node[title] {
+  cursor: pointer;
+}
+
+svg g.node[title]:hover rect {
+  stroke-width: 2px;
+  stroke: dodgerblue;
+}

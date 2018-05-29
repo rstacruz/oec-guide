@@ -1,6 +1,6 @@
 # Direct hire evaluation
 
-**To acquire an OEC, you need to first be evaluated by the Direct Hire department of the POEA offices in EDSA.** To be evaluated, you'll need to submit all the documents in their checklist.
+**To acquire an OEC, you need to first be evaluated by the Direct Hire department of the POEA offices in EDSA.** To be evaluated, you'll need to submit all the documents in their checklist (phase I), and attend seminars and medical exams (phase 2).
 
 ## Dependency graph
 
@@ -17,10 +17,14 @@ PEME[<b>PEME</b><br>Medical exam]
 click PEME "./medical_exam.html" "Medical exam"
 
 CONTRACT(<b>POLO<br>Contract<br>verification</b>)
+click CONTRACT "./polo_verification.html" "Contract verification"
+
 VERIFIED["<b>Verified contract</b><br>Verified by the<br>POLO (PH Overseas<br>Labor Office)"]
 click VERIFIED "./polo_verification.html" "Verified contract"
+
 REVISED["<b>Revised contract</b><br>With POEA-required<br>revisions"]
 click REVISED "./employment_standards.html" "Revised contract"
+
 CERTIFICATION["<b>Employer certification</b><br>Showing they hired 5<br>Filipinos max"]
 COMPLIANCE["<b>POEA Compliance Sheet</b><br>To cover POEA requirements<br>missing in contract"]
 
@@ -30,7 +34,10 @@ VISA["<b>Work visa</b><br>or entry permit"]
 
 ENDORSEMENT["<b>POLO endorsement</b><br>Endorsement letter"]
 click ENDORSEMENT "./polo_endorsement.html" "POLO endorsement"
+INSURANCE["<b>Proof of insurance</b><br>Endorsement letter"]
+click INSURANCE "./proof_of_insurance.html" "Proof of insurance"
 STATEMENT["<b>Notarized statement</b><br>Describe how you got the job"]
+click STATEMENT "./notarized_statement.html" "Notarized statement"
 EMPLOYERID["<b>Employer's ID</b><br>Drivers license or passport"]
 
 JOBDOCS(" ")
@@ -57,6 +64,7 @@ JOBDOCS --- PRC
 JOBDOCS === VERIFIED
 JOBDOCS --- DIPLOMA
 JOBDOCS --- ENDORSEMENT
+JOBDOCS --- INSURANCE
 end
 
 subgraph For POLO and POEA

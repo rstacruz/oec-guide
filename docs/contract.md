@@ -2,6 +2,10 @@
 
 You need a verified contract from POLO.
 
+## Process
+
+> TODO: I'm still inquiring about this.
+
 ```mermaid
 sequenceDiagram
   participant POEA
@@ -16,5 +20,7 @@ sequenceDiagram
   Employer->>Employee: Mail contract back to PH
   Employee->>POEA: Submit for evaluation
 ```
+
+<br>
 
 > Next: Negotiate on revisions by ensuring your work contract follows [POEA employment standards](employment_standards.md).
