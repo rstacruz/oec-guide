@@ -5,7 +5,7 @@
 
 ### Introduction
 
-* [Evaluation requirements](docs/evaluation_requirements.md)
+* [Evaluation requirements](docs/direct_hire_evaluation.md)
 * [Direct hire exception](docs/direct_hire_exception.md)
 
 ### Contract
@@ -22,8 +22,9 @@
 * Orientation seminar
 * Country-specific requirements
 
-### Citations
+### Documents
 
+* [Direct Hire evaluation requirements](docs/evaluation_requirements.md)
 * [POEA Memorandum Circular 08](docs/memorandum_circular_08.md)
 * [ONAR Bulletin Vol. 8 No. 19](docs/effectivity_of_memorandum_circular_08.md)
 * [Revised POEA Rules of 2016](docs/revised_poea_rules_of_2016.md)

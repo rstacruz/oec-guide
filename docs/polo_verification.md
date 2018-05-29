@@ -1,16 +1,20 @@
 # POLO verification
 
-> This article is a stub. You can help by expanding it.
-
-## OEC services
-
-- [Australia](http://canberrape.dfa.gov.ph/18-announcement/announcement/142-oec-issuance-at-polo-canberra)
-- [Singapore](https://www.philippine-embassy.org.sg/labor/overseas-employment-certificate-oec/)
+OEC and contract verification services are available through POLO (Philippine Overseas Labor Office) offices. Some countries may have this, and some may not.
 
 ## Australia
 
-+612 6273 8882
+There is a POLO (Philippine Overseas Labor Office) office in Canberra, Australia. This office services both Australia and New Zealand.
 
-[Australia](http://canberrape.dfa.gov.ph/18-announcement/announcement/142-oec-issuance-at-polo-canberra)
+This office processes [OEC issuance and contract verifications](http://canberrape.dfa.gov.ph/18-announcement/announcement/142-oec-issuance-at-polo-canberra). :warning: The information on their website is outdated; contact them below to get more updated requirements.
 
-- email poloaustralia@philembassy.org.au
+As of May 2018, their contact details are:
+
+> * Email: poloaustralia@philembassy.org.au
+> * Phone: +612 6273 8882
+
+## Singapore
+
+See: [Singapore](https://www.philippine-embassy.org.sg/labor/overseas-employment-certificate-oec/). Sorry, I don't have notes on this.
+
+<br>
