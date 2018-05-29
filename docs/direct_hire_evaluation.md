@@ -46,7 +46,6 @@ EVAL2 --- PEOS
 EVAL2 --- CLEARANCE
 EVAL2 --- PEME
 
-EVAL2 === EVAL1
 EVAL1 === JOBDOCS
 EVAL1 === ODOCS
 VERIFIED === CONTRACT
@@ -75,6 +74,11 @@ end
 
 CONTRACT --- ODOCS
 STATEMENT -.- |Needed for notarization| EMPLOYERID
+
+PDOS --- EVAL1
+PEOS --- EVAL1
+CLEARANCE --- EVAL1
+PEME --- EVAL1
 
 style OEC fill:#fff,stroke:#333,stroke-width:9px
 style EVAL1 fill:#fff,stroke:#3bd,stroke-width:9px
