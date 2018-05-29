@@ -7,8 +7,8 @@
 ```mermaid
 graph RL
 OEC("<b>OEC</b><br>Overseas<br>Employment<br>Certificate")
-EVAL1(<b>Evaluation<br>phase 1</b>)
-EVAL2(<b>Evaluation<br>phase 2</b>)
+EVAL1(<b>POEA<br>Evaluation<br>phase 1</b>)
+EVAL2(<b>POEA<br>Evaluation<br>phase 2</b>)
 PDOS[<b>PDOS</b><br>Pre-departure seminar]
 PEOS[<b>PEOS</b><br>Pre-employment seminar]
 CLEARANCE[<b>POEA clearance</b>]
@@ -76,7 +76,7 @@ end
 CONTRACT --- ODOCS
 STATEMENT -.- |Needed for notarization| EMPLOYERID
 
-style OEC fill:#fff,stroke:#3bd,stroke-width:9px
+style OEC fill:#fff,stroke:#333,stroke-width:9px
 style EVAL1 fill:#fff,stroke:#3bd,stroke-width:9px
 style EVAL2 fill:#fff,stroke:#3bd,stroke-width:9px
 style CONTRACT fill:#fff,stroke:#d3b,stroke-width:9px
