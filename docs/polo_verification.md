@@ -1,21 +1,6 @@
-# POLO verification
+# Contract verification process
 
 OEC and contract verification services are available through POLO (Philippine Overseas Labor Office) offices. Some countries may have this, and some may not.
-
-```mermaid
-sequenceDiagram
-  participant POEA
-  participant Employee
-  participant Employer
-  participant POLO
-
-  Employee-->Employer: Negotiate on revisions
-  Employer->>POLO: Mail contract for verification
-  Note over POLO: Verify contract
-  POLO->>Employer: Mail verified contract back
-  Employer->>Employee: Mail contract back to PH
-  Employee->>POEA: Submit for evaluation
-```
 
 ## Australia
 
@@ -33,3 +18,5 @@ As of May 2018, their contact details are:
 See: [Singapore](https://www.philippine-embassy.org.sg/labor/overseas-employment-certificate-oec/). Sorry, I don't have notes on this.
 
 <br>
+
+> Next: [POLO requirements](./polo_requirements.md)
