@@ -20,12 +20,17 @@ If you're abroad, I think you use [bmonline.ph](http://www.bmonline.ph/). For th
 
 ## Assumptions
 
-This document outlines how you can get an OEC as a direct hire. This guide mostly assumes:
+This document outlines how you can get an OEC as a direct hire. This guide makes these assumptions about you:
 
-* You don't have a recruitment agency.
-* You already have a working visa abroad.
-* You already have an employer abroad.
-* You are in the Philippines.
+* You have never acquired an OEC before. (OEC renewals are a different process.)
+
+* You don't have a recruitment agency. (Most information here are for "direct hire" employees. "Agency hire" employees have a different process.)
+
+* You are in the Philippines. (OEC applications can be done abroad, but are a different process.)
+
+* You already have an employer abroad. (An OEC requires an employment contract.)
+
+* You already have a working visa abroad. (This is needed by POLO to validate your employment contract.)
 
 &mdash; Rico Sta. Cruz (@rstacruz)
 
