@@ -254,7 +254,7 @@
                 <a href="polo_verification.html">
             
                     
-                    Verification process
+                    Submitting your requirements
             
                 </a>
             
@@ -662,10 +662,11 @@ click CONTRACT &quot;./polo_verification.html&quot; &quot;Contract verification&
 VERIFIED[&quot;<b>Verified contract</b><br>Verified by the<br>POLO (PH Overseas<br>Labor Office)&quot;]
 click VERIFIED &quot;./polo_verification.html&quot; &quot;Verified contract&quot;
 
-REVISED[&quot;<b>Revised contract</b><br>With POEA-required<br>revisions&quot;]
-click REVISED &quot;./employment_standards.html&quot; &quot;Revised contract&quot;
+EMPLOYMENTCONTRACT[&quot;<b>Employment contract</b><br>With POEA-required<br>revisions&quot;]
+ADDENDUM[&quot;<b>Contract addendum</b><br>if needed&quot;]
+click ADDENDUM &quot;./cnotract_addendum.html&quot; &quot;Contract addendum&quot;
 
-CERTIFICATION[&quot;<b>Employer certification</b><br>Showing they hired 5<br>Filipinos max&quot;]
+CERTIFICATION[&quot;<b>Company certification</b><br>Showing they hired 5<br>Filipinos max&quot;]
 
 ODOCS(&quot; &quot;)
 PASSPORT[&quot;<b>Passport</b><br>Valid for 6+ months&quot;]
@@ -719,7 +720,8 @@ end
 
 subgraph For POLO verification
 CONTRACT --- EMPLOYERID
-CONTRACT --- REVISED
+CONTRACT --- EMPLOYMENTCONTRACT
+CONTRACT --- ADDENDUM
 CONTRACT --- CERTIFICATION
 end
 
@@ -742,49 +744,184 @@ style JOBDOCS fill:#333,stroke-width:0
 </div>
 </div>
 
+<h2 id="items">Items</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Item</th>
+<th>POLO<br>Verification</th>
+<th>Eval<br>Phase 1</th>
+<th>Eval<br>Phase 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><input type="checkbox"></td>
+<td><strong>Your passport</strong> <br> Must be valid for at least 6 months</td>
+<td>x</td>
+<td>x</td>
+<td></td>
+</tr>
+<tr>
+<td><input type="checkbox"></td>
+<td><strong>Your visa</strong> <br> Visa or entry permit</td>
+<td>x</td>
+<td>x</td>
+<td></td>
+</tr>
+<tr>
+<td><input type="checkbox"></td>
+<td><strong>Business registration</strong> <br> of the employer</td>
+<td>x</td>
+<td>x</td>
+<td></td>
+</tr>
+<tr>
+<td><input type="checkbox"></td>
+<td><strong>Employment contract</strong> <br> Signed on all pages by the employer and employee</td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><input type="checkbox"></td>
+<td><strong><a href="contract_addendum.html">Contract addendum</a></strong> <br> (If needed) additions to the work contract to conform to POEA standards</td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><input type="checkbox"></td>
+<td><strong>Employer&apos;s ID</strong> <br> Passport or driver&apos;s license</td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><input type="checkbox"></td>
+<td><strong>Company certification</strong> <br> Showing that they hired 5 Filipinos max, and that they haven&apos;t dealt with a Philippine recruitement agency</td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><input type="checkbox"></td>
+<td><strong><a href="notarized_statement.html">Notarized statement</a></strong> <br> Describing how you found your work abroad</td>
+<td></td>
+<td>x</td>
+<td></td>
+</tr>
+<tr>
+<td><input type="checkbox"></td>
+<td><strong>Resume/CV</strong></td>
+<td></td>
+<td>x</td>
+<td></td>
+</tr>
+<tr>
+<td><input type="checkbox"></td>
+<td><strong>PRC license</strong>, if applicable</td>
+<td></td>
+<td>x</td>
+<td></td>
+</tr>
+<tr>
+<td><input type="checkbox"></td>
+<td><strong>Verified contract</strong> from POLO</td>
+<td></td>
+<td>x</td>
+<td></td>
+</tr>
+<tr>
+<td><input type="checkbox"></td>
+<td><strong>Diploma</strong></td>
+<td></td>
+<td>x</td>
+<td></td>
+</tr>
+<tr>
+<td><input type="checkbox"></td>
+<td><strong>Transcript of records</strong></td>
+<td></td>
+<td>x</td>
+<td></td>
+</tr>
+<tr>
+<td><input type="checkbox"></td>
+<td><strong><a href="polo_endorsement.html">POLO endorsement</a></strong></td>
+<td></td>
+<td>x</td>
+<td></td>
+</tr>
+<tr>
+<td><input type="checkbox"></td>
+<td><strong><a href="proof_of_insurance.html">Proof of insurance</a></strong></td>
+<td></td>
+<td>x</td>
+<td></td>
+</tr>
+<tr>
+<td><input type="checkbox"></td>
+<td>Country-specific requirements for USA</td>
+<td></td>
+<td>x</td>
+<td></td>
+</tr>
+<tr>
+<td><input type="checkbox"></td>
+<td>Country-specific requirements for Canada</td>
+<td></td>
+<td>x</td>
+<td></td>
+</tr>
+<tr>
+<td><input type="checkbox"></td>
+<td>Country-specific requirements for Middle East</td>
+<td></td>
+<td>x</td>
+<td></td>
+</tr>
+<tr>
+<td><input type="checkbox"></td>
+<td>Country-specific requirements for African countries</td>
+<td></td>
+<td>x</td>
+<td></td>
+</tr>
+<tr>
+<td><input type="checkbox"></td>
+<td><strong><a href="pre_departure_orientation_seminar.html">PDOS</a></strong>, Pre-Departure Orientation Seminar</td>
+<td></td>
+<td></td>
+<td>x</td>
+</tr>
+<tr>
+<td><input type="checkbox"></td>
+<td><strong><a href="pre_employment_orientation_seminar.html">PEOS</a></strong>, Pre-Employment Orientation Seminar</td>
+<td></td>
+<td></td>
+<td>x</td>
+</tr>
+<tr>
+<td><input type="checkbox"></td>
+<td><strong><a href="medical_exam.html">PEME</a></strong>, Pre-Employment Medical Exam</td>
+<td></td>
+<td></td>
+<td>x</td>
+</tr>
+<tr>
+<td><input type="checkbox"></td>
+<td><strong>POEA clearance</strong></td>
+<td></td>
+<td></td>
+<td>x</td>
+</tr>
+</tbody>
+</table>
 <h2 id="direct-hire">Direct hire</h2>
-<p>The process described here is for &quot;direct hires&quot;&#x2014;that is, workers who acquired work without the intercession of a recruitment agency. As of May 2018, POEA has a ban on processing direct hire applications, and you need to prove that you&apos;re exempted as a skilled worker.</p>
+<p>The process and requirements described here are for &quot;direct hires&quot;&#x2014;that is, workers who acquired work without the intercession of a recruitment agency. As of May 2018, POEA has a ban on processing direct hire applications, and you need to prove that you&apos;re exempted as a skilled worker.</p>
 <p>See <a href="direct_hire.html">Direct hire</a> to understand what a &quot;Direct Hire&quot; is, and how to acquire an endorsement letter to prove your exemption as a skilled worker.</p>
-<h2 id="common-documents">Common documents</h2>
-<p>These documents are required by both POLO (for contract verification) and POEA (for phase 1 evaluation).</p>
-<blockquote>
-<ul>
-<li><input type="checkbox"> <strong>Passport</strong></li>
-<li><input type="checkbox"> <strong>Visa</strong></li>
-<li><input type="checkbox"> <strong>Business registration</strong> of the employer</li>
-</ul>
-</blockquote>
-<h2 id="polo-verification">POLO verification</h2>
-<p>Everything in <a href="#common-documents">common documents</a> above, and the following:</p>
-<blockquote>
-<ul>
-<li><input type="checkbox"> <strong>Employment contract</strong>, signed on all pages by the employer and the worker</li>
-<li><input type="checkbox"> <strong>Employers passport</strong> or drivers license</li>
-<li><input type="checkbox"> <strong>Company certification</strong> that they have not hired more than 5 Filipino workers processed by POEA and POLO and that the company has not partnered with Philippine Recruitment agency to process the deployment of their workers.</li>
-</ul>
-</blockquote>
-<h2 id="poea-phase-1">POEA phase 1</h2>
-<p>Everything in <a href="#common-documents">common documents</a> above, and the following:</p>
-<blockquote>
-<ul>
-<li><input type="checkbox"> <strong>Notarized statement</strong></li>
-<li><input type="checkbox"> <strong>Resume/CV</strong></li>
-<li><input type="checkbox"> <strong>PRC License</strong></li>
-<li><input type="checkbox"> <strong>Verified contract</strong> from POLO</li>
-<li><input type="checkbox"> <strong>Diploma</strong></li>
-<li><input type="checkbox"> <strong>POLO endorsement</strong></li>
-<li><input type="checkbox"> <strong>Proof of insurance</strong></li>
-</ul>
-</blockquote>
-<h2 id="poea-phase-2">POEA phase 2</h2>
-<blockquote>
-<ul>
-<li><input type="checkbox"> Pre-Departure Orientation Seminar (PDOS)</li>
-<li><input type="checkbox"> Pre-Employment Orientation Seminar (PEOS)</li>
-<li><input type="checkbox"> Pre-Employment Medical Exam (PEME)</li>
-<li><input type="checkbox"> POEA clearance</li>
-</ul>
-</blockquote>
 <p><br></p>
 <blockquote>
 <p>Next: <a href="direct_hire.html">What is a direct hire</a>, and how do I get an OEC as a direct hire?</p>
@@ -832,7 +969,7 @@ style JOBDOCS fill:#333,stroke-width:0
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Requirements overview","level":"1.1.2","depth":2,"next":{"title":"Direct hires","level":"1.2","depth":1,"path":"docs/direct_hire.md","ref":"docs/direct_hire.md","articles":[{"title":"Skilled worker exemption","level":"1.2.1","depth":2,"path":"docs/direct_hire_exception.md","ref":"docs/direct_hire_exception.md","articles":[]},{"title":"POLO endorsement","level":"1.2.2","depth":2,"path":"docs/polo_endorsement.md","ref":"docs/polo_endorsement.md","articles":[]}]},"previous":{"title":"Process overview","level":"1.1.1","depth":2,"path":"docs/process_overview.md","ref":"docs/process_overview.md","articles":[]},"dir":"ltr"},"config":{"plugins":["advanced-emoji","anchorjs","mermaid-gb3","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"advanced-emoji":{"embedEmojis":false},"anchorjs":{},"mermaid-gb3":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"OEC Guide","gitbook":"*"},"file":{"path":"docs/requirements_overview.md","mtime":"2018-05-30T07:49:55.167Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-30T09:27:52.214Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Requirements overview","level":"1.1.2","depth":2,"next":{"title":"Direct hires","level":"1.2","depth":1,"path":"docs/direct_hire.md","ref":"docs/direct_hire.md","articles":[{"title":"Skilled worker exemption","level":"1.2.1","depth":2,"path":"docs/direct_hire_exception.md","ref":"docs/direct_hire_exception.md","articles":[]},{"title":"POLO endorsement","level":"1.2.2","depth":2,"path":"docs/polo_endorsement.md","ref":"docs/polo_endorsement.md","articles":[]}]},"previous":{"title":"Process overview","level":"1.1.1","depth":2,"path":"docs/process_overview.md","ref":"docs/process_overview.md","articles":[]},"dir":"ltr"},"config":{"plugins":["advanced-emoji","anchorjs","mermaid-gb3","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"advanced-emoji":{"embedEmojis":false},"anchorjs":{},"mermaid-gb3":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"OEC Guide","gitbook":"*"},"file":{"path":"docs/requirements_overview.md","mtime":"2018-05-30T14:19:31.592Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-30T14:19:35.056Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
