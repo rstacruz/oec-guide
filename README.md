@@ -22,11 +22,13 @@ If you're abroad, I think you use [bmonline.ph](http://www.bmonline.ph/). For th
 
 This document outlines how you can get an OEC as a direct hire. This guide mostly assumes:
 
-- You don't have a recruitment agency.
-- You already have a working visa abroad.
-- You already have an employer abroad.
-- You are in the Philippines.
+* You don't have a recruitment agency.
+* You already have a working visa abroad.
+* You already have an employer abroad.
+* You are in the Philippines.
 
 &mdash; Rico Sta. Cruz (@rstacruz)
 
-> Next: [What is a direct hire](./docs/direct_hire.md), and how do I get an OEC as a direct hire?
+<br>
+
+> Next: [Overview](./docs/overview.md)

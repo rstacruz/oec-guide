@@ -1,14 +1,16 @@
 # Summary
 
 * [OEC Guide](README.md)
+  * [Process overview](docs/process_overview.md)
+  * [Requirements overview](docs/requirements_overview.md)
 
 ### Phase I
 
 * [Direct hires](docs/direct_hire.md)
 
-  * [Evaluation requirements](docs/direct_hire_evaluation.md)
   * [Direct hire ban](docs/direct_hire_exception.md)
   * [POLO endorsement](docs/polo_endorsement.md)
+  * [Evaluation requirements](docs/direct_hire_evaluation.md)
 
 * [Contract](docs/contract.md)
 
@@ -36,6 +38,12 @@
 
   * [Medical exam (PEME)](docs/medical_exam.md)
   * POEA Clearance
+
+---
+
+* Locations
+  * [POEA direct hire department](docs/direct_hire_department.md)
+  * POLO
 
 ---
 

@@ -1,10 +1,4 @@
-# _Direct hires_ Evaluation requirements
-
-**To acquire an OEC, you need to first be evaluated by the Direct Hire department of the POEA offices in EDSA.** To be evaluated, you'll need to submit all the documents in their checklist (phase I), and attend seminars and medical exams (phase 2).
-
-## Dependency graph
-
-Here's a list of documents needed, as collected from the [POEA evaluation requirements](./evaluation_requirements.md) and [POLO verification requirements](./polo_requirements.md).
+# Requirements overview
 
 ```mermaid
 graph RL
@@ -109,12 +103,48 @@ style ODOCS fill:#333,stroke-width:0
 style JOBDOCS fill:#333,stroke-width:0
 ```
 
-## May 2018 checklist
+## Direct hire
 
-As of May 2018, this department issues a checklist of requirements. See: [Evaluation requirements](./evaluation_requirements.md).
+The process described here is for "direct hires"&mdash;that is, workers who acquired work without the intercession of a recruitment agency. As of May 2018, POEA has a ban on processing direct hire applications, and you need to prove that you're exempted as a skilled worker.
 
-:warning: Avoid consulting the POEA website; their checklist [is outdated](./skilled_worker_requirements_outdated.md).
+See [Direct hire](./direct_hire.md) to understand what a "Direct Hire" is, and how to acquire an endorsement letter to prove your exemption as a skilled worker.
+
+## Common documents
+
+These documents are required by both POLO (for contract verification) and POEA (for phase 1 evaluation).
+
+> * <input type='checkbox'> **Passport**
+> * <input type='checkbox'> **Visa**
+> * <input type='checkbox'> **Business registration** of the employer
+
+## POLO verification
+
+Everything in [common documents](#common-documents) above, and the following:
+
+> * <input type='checkbox'> **Employment contract**, signed on all pages by the employer and the worker
+> * <input type='checkbox'> **Employers passport** or drivers license
+> * <input type='checkbox'> **Company certification** that they have not hired more than 5 Filipino workers processed by POEA and POLO and that the company has not partnered with Philippine Recruitment agency to process the deployment of their workers.
+> * <input type='checkbox'> **POEA Compliance Sheet,** which should be signed by the employer in order to cover the Philippine requirements that are not covered by the employment contract
+
+## POEA phase 1
+
+Everything in [common documents](#common-documents) above, and the following:
+
+> * <input type='checkbox'> **Notarized statement**
+> * <input type='checkbox'> **Resume/CV**
+> * <input type='checkbox'> **PRC License**
+> * <input type='checkbox'> **Verified contract** from POLO
+> * <input type='checkbox'> **Diploma**
+> * <input type='checkbox'> **POLO endorsement**
+> * <input type='checkbox'> **Proof of insurance**
+
+## POEA phase 2
+
+> * <input type='checkbox'> Pre-Departure Orientation Seminar (PDOS)
+> * <input type='checkbox'> Pre-Employment Orientation Seminar (PEOS)
+> * <input type='checkbox'> Pre-Employment Medical Exam (PEME)
+> * <input type='checkbox'> POEA clearance
 
 <br>
 
-> Next: Find out about the [direct hire ban](./direct_hire_exception.md), and how you can circumvent it.
+> Next: [What is a direct hire](./docs/direct_hire.md), and how do I get an OEC as a direct hire?
