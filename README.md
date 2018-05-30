@@ -31,4 +31,4 @@ This document outlines how you can get an OEC as a direct hire. This guide mostl
 
 <br>
 
-> Next: [Overview](./docs/overview.md)
+> Next: [Process overview](./docs/process_overview.md)
