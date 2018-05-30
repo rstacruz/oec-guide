@@ -26,10 +26,11 @@ click CONTRACT "./polo_verification.html" "Contract verification"
 VERIFIED["<b>Verified contract</b><br>Verified by the<br>POLO (PH Overseas<br>Labor Office)"]
 click VERIFIED "./polo_verification.html" "Verified contract"
 
-REVISED["<b>Revised contract</b><br>With POEA-required<br>revisions"]
-click REVISED "./employment_standards.html" "Revised contract"
+EMPLOYMENTCONTRACT["<b>Employment contract</b><br>With POEA-required<br>revisions"]
+ADDENDUM["<b>Contract addendum</b><br>if needed"]
+click ADDENDUM "./cnotract_addendum.html" "Contract addendum"
 
-CERTIFICATION["<b>Employer certification</b><br>Showing they hired 5<br>Filipinos max"]
+CERTIFICATION["<b>Company certification</b><br>Showing they hired 5<br>Filipinos max"]
 
 ODOCS(" ")
 PASSPORT["<b>Passport</b><br>Valid for 6+ months"]
@@ -83,7 +84,8 @@ end
 
 subgraph For POLO verification
 CONTRACT --- EMPLOYERID
-CONTRACT --- REVISED
+CONTRACT --- EMPLOYMENTCONTRACT
+CONTRACT --- ADDENDUM
 CONTRACT --- CERTIFICATION
 end
 
@@ -106,46 +108,39 @@ style JOBDOCS fill:#333,stroke-width:0
 ```
 </div>
 
+## Items
+
+|                         | Item                                                                                                                                      | POLO<br>Verification | Eval<br>Phase 1 | Eval<br>Phase 2 |
+| ---                     | ---                                                                                                                                       | ---                  | ---             | ---             |
+| <input type='checkbox'> | **Your passport** <br> Must be valid for at least 6 months                                                                                | x                    | x               |                 |
+| <input type='checkbox'> | **Your visa** <br> Visa or entry permit                                                                                                   | x                    | x               |                 |
+| <input type='checkbox'> | **Business registration** <br> of the employer                                                                                            | x                    | x               |                 |
+| <input type='checkbox'> | **Employment contract** <br> Signed on all pages by the employer and employee                                                             | x                    |                 |                 |
+| <input type='checkbox'> | **[Contract addendum](./contract_addendum.md)** <br> (If needed) additions to the work contract to conform to POEA standards              | x                    |                 |                 |
+| <input type='checkbox'> | **Employer's ID** <br> Passport or driver's license                                                                                       | x                    |                 |                 |
+| <input type='checkbox'> | **Company certification** <br> Showing that they hired 5 Filipinos max, and that they haven't dealt with a Philippine recruitement agency | x                    |                 |                 |
+| <input type='checkbox'> | **[Notarized statement](./notarized_statement.md)** <br> Describing how you found your work abroad                                        |                      | x               |                 |
+| <input type='checkbox'> | **Resume/CV**                                                                                                                             |                      | x               |                 |
+| <input type='checkbox'> | **PRC license**, if applicable                                                                                                            |                      | x               |                 |
+| <input type='checkbox'> | **Verified contract** from POLO                                                                                                           |                      | x               |                 |
+| <input type='checkbox'> | **Diploma**                                                                                                                               |                      | x               |                 |
+| <input type='checkbox'> | **Transcript of records**                                                                                                                 |                      | x               |                 |
+| <input type='checkbox'> | **[POLO endorsement](./polo_endorsement.md)**                                                                                             |                      | x               |                 |
+| <input type='checkbox'> | **[Proof of insurance](./proof_of_insurance.md)**                                                                                         |                      | x               |                 |
+| <input type='checkbox'> | Country-specific requirements for USA                                                                                                     |                      | x               |                 |
+| <input type='checkbox'> | Country-specific requirements for Canada                                                                                                  |                      | x               |                 |
+| <input type='checkbox'> | Country-specific requirements for Middle East                                                                                             |                      | x               |                 |
+| <input type='checkbox'> | Country-specific requirements for African countries                                                                                       |                      | x               |                 |
+| <input type='checkbox'> | **[PDOS](./pre_departure_orientation_seminar.md)**, Pre-Departure Orientation Seminar                                                     |                      |                 | x               |
+| <input type='checkbox'> | **[PEOS](./pre_employment_orientation_seminar.md)**, Pre-Employment Orientation Seminar                                                   |                      |                 | x               |
+| <input type='checkbox'> | **[PEME](./medical_exam.md)**, Pre-Employment Medical Exam                                                                                |                      |                 | x               |
+| <input type='checkbox'> | **POEA clearance**                                                                                                                        |                      |                 | x               |
+
 ## Direct hire
 
-The process described here is for "direct hires"&mdash;that is, workers who acquired work without the intercession of a recruitment agency. As of May 2018, POEA has a ban on processing direct hire applications, and you need to prove that you're exempted as a skilled worker.
+The process and requirements described here are for "direct hires"&mdash;that is, workers who acquired work without the intercession of a recruitment agency. As of May 2018, POEA has a ban on processing direct hire applications, and you need to prove that you're exempted as a skilled worker.
 
 See [Direct hire](./direct_hire.md) to understand what a "Direct Hire" is, and how to acquire an endorsement letter to prove your exemption as a skilled worker.
-
-## Common documents
-
-These documents are required by both POLO (for contract verification) and POEA (for phase 1 evaluation).
-
-> * <input type='checkbox'> **Passport**
-> * <input type='checkbox'> **Visa**
-> * <input type='checkbox'> **Business registration** of the employer
-
-## POLO verification
-
-Everything in [common documents](#common-documents) above, and the following:
-
-> * <input type='checkbox'> **Employment contract**, signed on all pages by the employer and the worker
-> * <input type='checkbox'> **Employers passport** or drivers license
-> * <input type='checkbox'> **Company certification** that they have not hired more than 5 Filipino workers processed by POEA and POLO and that the company has not partnered with Philippine Recruitment agency to process the deployment of their workers.
-
-## POEA phase 1
-
-Everything in [common documents](#common-documents) above, and the following:
-
-> * <input type='checkbox'> **Notarized statement**
-> * <input type='checkbox'> **Resume/CV**
-> * <input type='checkbox'> **PRC License**
-> * <input type='checkbox'> **Verified contract** from POLO
-> * <input type='checkbox'> **Diploma**
-> * <input type='checkbox'> **POLO endorsement**
-> * <input type='checkbox'> **Proof of insurance**
-
-## POEA phase 2
-
-> * <input type='checkbox'> Pre-Departure Orientation Seminar (PDOS)
-> * <input type='checkbox'> Pre-Employment Orientation Seminar (PEOS)
-> * <input type='checkbox'> Pre-Employment Medical Exam (PEME)
-> * <input type='checkbox'> POEA clearance
 
 <br>
 

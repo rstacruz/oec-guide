@@ -1,4 +1,4 @@
-# _POLO contract verification_ Verification process
+# _POLO contract verification_ Submitting your requirements
 
 OEC and contract verification services are available through POLO (Philippine Overseas Labor Office) offices. Some countries may have this, and some may not.
 

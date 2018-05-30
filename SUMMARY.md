@@ -17,7 +17,7 @@
   * [Requirements](docs/polo_requirements.md)
   * [Employment standards](docs/employment_standards.md)
   * [Contract addendum](docs/contract_addendum.md)
-  * [Verification process](docs/polo_verification.md)
+  * [Submitting your requirements](docs/polo_verification.md)
 
 * [Phase 1 evaluation](docs/direct_hire_evaluation.md)
 

@@ -385,6 +385,12 @@ nav[role="navigation"] > .summary > .chapter > a {
   padding: 16px 24px;
 }
 
+.markdown-section blockquote img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .markdown-section blockquote > :first-child {
   margin-top: 0;
 }
