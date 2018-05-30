@@ -1,4 +1,4 @@
-# *Direct hires* The direct hire ban
+# _Direct hires_ Skilled worker exemption
 
 **POEA has a ban on processing OEC requests from Direct Hires. However, skilled workers are exempted from this ban.** When going to POEA offices, the direct hire department may assert that there's a ban on direct hires. Be aware that skilled workers are exempted since 2016, and this was reinforced in 2018.
 

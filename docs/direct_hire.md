@@ -8,6 +8,7 @@ Direct hire OEC applications are not processed by the POEA, but exemptions can b
 
 > SECTION 123. Ban on Direct Hires. — No employer shall directly hire an Overseas Filipino Worker for overseas employment.
 
+However, there are exemptions to this rule in _§124_. "Professionals and skilled workers" are exempted from this ban.
 <br>
 
-> Next: Review the [Evaluation requirements](./direct_hire_evaluation.md) to understand what documents will be needed.
+> Next: Let's look at the [skilled worker exemption](./direct_hire_exception.md).

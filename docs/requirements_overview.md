@@ -1,9 +1,12 @@
-# Requirements overview
+# _OEC guidebook_ Requirements overview
 
+<div class='wide-figure'>
 ```mermaid
 graph RL
 OEC("<b>OEC</b><br>Overseas<br>Employment<br>Certificate")
 EVAL1(<b>POEA<br>Evaluation<br>phase 1</b>)
+click EVAL1 "./direct_hire_evaluation.html" "POEA evaluation phase 1"
+
 EVAL2(<b>POEA<br>Evaluation<br>phase 2</b>)
 
 PDOS[<b>PDOS</b><br>Pre-departure seminar]
@@ -99,7 +102,9 @@ style CONTRACT fill:#fff,stroke:#d3b,stroke-width:9px
 
 style ODOCS fill:#333,stroke-width:0
 style JOBDOCS fill:#333,stroke-width:0
+
 ```
+</div>
 
 ## Direct hire
 
@@ -144,4 +149,4 @@ Everything in [common documents](#common-documents) above, and the following:
 
 <br>
 
-> Next: [What is a direct hire](./docs/direct_hire.md), and how do I get an OEC as a direct hire?
+> Next: [What is a direct hire](./direct_hire.md), and how do I get an OEC as a direct hire?
