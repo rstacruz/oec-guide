@@ -1,25 +1,25 @@
 # Summary
 
 * [OEC Guide](README.md)
+
   * [Process overview](docs/process_overview.md)
   * [Requirements overview](docs/requirements_overview.md)
 
-### Phase I
-
 * [Direct hires](docs/direct_hire.md)
 
-  * [Direct hire ban](docs/direct_hire_exception.md)
+  * [The direct hire ban](docs/direct_hire_exception.md)
   * [POLO endorsement](docs/polo_endorsement.md)
-  * [Phase 1 evaluation](docs/direct_hire_evaluation.md)
 
-* [Contract](docs/contract.md)
+### Process
 
+* [Contract verification](docs/contract.md)
+
+  * [Requirements](docs/polo_requirements.md)
   * [Employment standards](docs/employment_standards.md)
-  * [POLO requirements](docs/polo_requirements.md)
-  * POEA compliance sheet
+  * [Contract addendum](docs/contract_addendum.md)
   * [Verification process](docs/polo_verification.md)
 
-* Documents
+* [Phase 1 evaluation](docs/direct_hire_evaluation.md)
 
   * [Proof of insurance](docs/proof_of_insurance.md)
   * [Notarized statement](docs/notarized_statement.md)
@@ -27,15 +27,10 @@
   * Company profile
   * Country-specific requirements
 
-### Phase II
-
-* Seminars
+* Evaluation, phase II
 
   * [Pre-departure (PDOS)](docs/pre_departure_orientation_seminar.md)
   * [Pre-employment (PEOS)](docs/pre_employment_orientation_seminar.md)
-
-* Other
-
   * [Medical exam (PEME)](docs/medical_exam.md)
   * POEA Clearance
 

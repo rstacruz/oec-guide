@@ -1,6 +1,6 @@
-# Contract verification requirements
+# _POLO contract verification_ Requirements
 
-According to POLO, Canberra, Australia, these are the requirements needed:
+According to POLO, Canberra, Australia, these are the requirements needed for contract verification:
 
 > * <input type='checkbox'> **Employment contract** (signed on all pages by the employer and the worker)
 > * <input type='checkbox'> Copy of the **worker's passport**

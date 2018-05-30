@@ -1,4 +1,4 @@
 {
   "title": "OEC Guide",
-  "plugins": ["advanced-emoji", "anchorjs", "mermaid-gb3"]
+  "plugins": ["advanced-emoji", "anchorjs", "mermaid-gb3", "-fontsettings"]
 }

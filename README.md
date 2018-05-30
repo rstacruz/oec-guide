@@ -1,4 +1,4 @@
-# How to get an OEC
+# Rico's OEC guidebook _How to get an OEC_
 
 > :warning: This is a work in progress. guide will be updated as I find more information.
 

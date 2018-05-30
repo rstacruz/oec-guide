@@ -1,4 +1,4 @@
-# _Direct hires_ Phase 1 evaluation
+# Phase 1 evaluation
 
 **To acquire an OEC, you need to first be evaluated by the Direct Hire department of the POEA offices in EDSA.** To be evaluated, you'll need to submit all the documents in their checklist (phase 1), and attend seminars and medical exams (phase 2).
 

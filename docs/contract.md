@@ -1,4 +1,4 @@
-# Contract verification
+# POLO contract verification
 
 You need a verified contract from POLO.
 

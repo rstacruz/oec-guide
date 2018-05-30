@@ -27,7 +27,6 @@ REVISED["<b>Revised contract</b><br>With POEA-required<br>revisions"]
 click REVISED "./employment_standards.html" "Revised contract"
 
 CERTIFICATION["<b>Employer certification</b><br>Showing they hired 5<br>Filipinos max"]
-COMPLIANCE["<b>POEA Compliance Sheet</b><br>To cover POEA requirements<br>missing in contract"]
 
 ODOCS(" ")
 PASSPORT["<b>Passport</b><br>Valid for 6+ months"]
@@ -83,7 +82,6 @@ subgraph For POLO verification
 CONTRACT --- EMPLOYERID
 CONTRACT --- REVISED
 CONTRACT --- CERTIFICATION
-CONTRACT --- COMPLIANCE
 end
 
 CONTRACT --- ODOCS
@@ -124,7 +122,6 @@ Everything in [common documents](#common-documents) above, and the following:
 > * <input type='checkbox'> **Employment contract**, signed on all pages by the employer and the worker
 > * <input type='checkbox'> **Employers passport** or drivers license
 > * <input type='checkbox'> **Company certification** that they have not hired more than 5 Filipino workers processed by POEA and POLO and that the company has not partnered with Philippine Recruitment agency to process the deployment of their workers.
-> * <input type='checkbox'> **POEA Compliance Sheet,** which should be signed by the employer in order to cover the Philippine requirements that are not covered by the employment contract
 
 ## POEA phase 1
 
