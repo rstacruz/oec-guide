@@ -10,7 +10,7 @@
 
   * [Direct hire ban](docs/direct_hire_exception.md)
   * [POLO endorsement](docs/polo_endorsement.md)
-  * [Evaluation requirements](docs/direct_hire_evaluation.md)
+  * [Phase 1 evaluation](docs/direct_hire_evaluation.md)
 
 * [Contract](docs/contract.md)
 
