@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Pre-employment (PEOS) · OEC Guide</title>
+        <title>Requirements overview · OEC Guide</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -71,8 +71,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="direct_hire.html" />
     
-    <link rel="prev" href="pre_departure_orientation_seminar.html" />
+    
+    <link rel="prev" href="process_overview.html" />
     
 
     </head>
@@ -128,7 +130,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.1.2" data-path="requirements_overview.html">
+        <li class="chapter active" data-level="1.1.2" data-path="requirements_overview.html">
             
                 <a href="requirements_overview.html">
             
@@ -400,7 +402,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="3.1.2" data-path="pre_employment_orientation_seminar.html">
+        <li class="chapter " data-level="3.1.2" data-path="pre_employment_orientation_seminar.html">
             
                 <a href="pre_employment_orientation_seminar.html">
             
@@ -668,7 +670,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Pre-employment (PEOS)</a>
+        <a href=".." >Requirements overview</a>
     </h1>
 </div>
 
@@ -683,12 +685,158 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="peos-pre-employment-orientation-seminar"><em>PEOS</em> Pre-Employment Orientation Seminar</h1>
-<p>You can take this online. See <a href="http://www.peos.poea.gov.ph/" target="_blank">http://www.peos.poea.gov.ph/</a>.</p>
+                                <h1 id="requirements-overview">Requirements overview</h1>
+<div class="mermaid">
+graph RL
+OEC(&quot;<b>OEC</b><br>Overseas<br>Employment<br>Certificate&quot;)
+EVAL1(<b>POEA<br>Evaluation<br>phase 1</b>)
+EVAL2(<b>POEA<br>Evaluation<br>phase 2</b>)
+
+PDOS[<b>PDOS</b><br>Pre-departure seminar]
+click PDOS &quot;./pre_departure_orientation_seminar.html&quot; &quot;Pre-departure seminar&quot;
+
+PEOS[<b>PEOS</b><br>Pre-employment seminar]
+click PEOS &quot;./pre_employment_orientation_seminar.html&quot; &quot;Pre-employment seminar&quot;
+
+CLEARANCE[<b>POEA clearance</b>]
+
+PEME[<b>PEME</b><br>Medical exam]
+click PEME &quot;./medical_exam.html&quot; &quot;Medical exam&quot;
+
+CONTRACT(<b>POLO<br>Contract<br>verification</b>)
+click CONTRACT &quot;./polo_verification.html&quot; &quot;Contract verification&quot;
+
+VERIFIED[&quot;<b>Verified contract</b><br>Verified by the<br>POLO (PH Overseas<br>Labor Office)&quot;]
+click VERIFIED &quot;./polo_verification.html&quot; &quot;Verified contract&quot;
+
+REVISED[&quot;<b>Revised contract</b><br>With POEA-required<br>revisions&quot;]
+click REVISED &quot;./employment_standards.html&quot; &quot;Revised contract&quot;
+
+CERTIFICATION[&quot;<b>Employer certification</b><br>Showing they hired 5<br>Filipinos max&quot;]
+COMPLIANCE[&quot;<b>POEA Compliance Sheet</b><br>To cover POEA requirements<br>missing in contract&quot;]
+
+ODOCS(&quot; &quot;)
+PASSPORT[&quot;<b>Passport</b><br>Valid for 6+ months&quot;]
+VISA[&quot;<b>Work visa</b><br>or entry permit&quot;]
+
+ENDORSEMENT[&quot;<b>POLO endorsement</b><br>Endorsement letter&quot;]
+click ENDORSEMENT &quot;./polo_endorsement.html&quot; &quot;POLO endorsement&quot;
+
+INSURANCE[&quot;<b>Proof of insurance</b><br>Endorsement letter&quot;]
+click INSURANCE &quot;./proof_of_insurance.html&quot; &quot;Proof of insurance&quot;
+
+STATEMENT[&quot;<b>Notarized statement</b><br>Describe how you got the job&quot;]
+click STATEMENT &quot;./notarized_statement.html&quot; &quot;Notarized statement&quot;
+
+EMPLOYERID[&quot;<b>Employer&apos;s ID</b><br>Drivers license or passport&quot;]
+
+JOBDOCS(&quot; &quot;)
+CV[&quot;<b>Resume / CV</b>&quot;]
+PRC[&quot;<b>PRC License</b><br>(PH Regulatory Commission)&quot;]
+DIPLOMA[&quot;<b>Diploma</b><br>and Transcript of Records&quot;]
+PROFILE[&quot;<b>Company profile</b><br>and business license of employer&quot;]
+
+OEC === EVAL2
+
+subgraph Phase 2
+EVAL2 --- PDOS
+EVAL2 --- PEOS
+EVAL2 --- CLEARANCE
+EVAL2 --- PEME
+end
+
+EVAL1 === JOBDOCS
+EVAL1 === ODOCS
+VERIFIED === CONTRACT
+
+subgraph For POEA evaluation
+JOBDOCS --- STATEMENT
+JOBDOCS --- CV
+JOBDOCS --- PRC
+JOBDOCS === VERIFIED
+JOBDOCS --- DIPLOMA
+JOBDOCS --- ENDORSEMENT
+JOBDOCS --- INSURANCE
+end
+
+subgraph For POLO and POEA
+ODOCS --- PASSPORT
+ODOCS --- VISA
+ODOCS --- PROFILE
+end
+
+subgraph For POLO verification
+CONTRACT --- EMPLOYERID
+CONTRACT --- REVISED
+CONTRACT --- CERTIFICATION
+CONTRACT --- COMPLIANCE
+end
+
+CONTRACT --- ODOCS
+STATEMENT -.- |Needed for notarization| EMPLOYERID
+
+PDOS --- EVAL1
+PEOS --- EVAL1
+CLEARANCE --- EVAL1
+PEME --- EVAL1
+
+style OEC fill:#fff,stroke:#333,stroke-width:9px
+style EVAL1 fill:#fff,stroke:#3bd,stroke-width:9px
+style EVAL2 fill:#fff,stroke:#3bd,stroke-width:9px
+style CONTRACT fill:#fff,stroke:#d3b,stroke-width:9px
+
+style ODOCS fill:#333,stroke-width:0
+style JOBDOCS fill:#333,stroke-width:0
+</div>
+
+<h2 id="direct-hire">Direct hire</h2>
+<p>The process described here is for &quot;direct hires&quot;&#x2014;that is, workers who acquired work without the intercession of a recruitment agency. As of May 2018, POEA has a ban on processing direct hire applications, and you need to prove that you&apos;re exempted as a skilled worker.</p>
+<p>See <a href="direct_hire.html">Direct hire</a> to understand what a &quot;Direct Hire&quot; is, and how to acquire an endorsement letter to prove your exemption as a skilled worker.</p>
+<h2 id="common-documents">Common documents</h2>
+<p>These documents are required by both POLO (for contract verification) and POEA (for phase 1 evaluation).</p>
 <blockquote>
-<p>TODO: I&apos;m still inquiring about this.</p>
+<ul>
+<li><input type="checkbox"> <strong>Passport</strong></li>
+<li><input type="checkbox"> <strong>Visa</strong></li>
+<li><input type="checkbox"> <strong>Business registration</strong> of the employer</li>
+</ul>
+</blockquote>
+<h2 id="polo-verification">POLO verification</h2>
+<p>Everything in <a href="#common-documents">common documents</a> above, and the following:</p>
+<blockquote>
+<ul>
+<li><input type="checkbox"> <strong>Employment contract</strong>, signed on all pages by the employer and the worker</li>
+<li><input type="checkbox"> <strong>Employers passport</strong> or drivers license</li>
+<li><input type="checkbox"> <strong>Company certification</strong> that they have not hired more than 5 Filipino workers processed by POEA and POLO and that the company has not partnered with Philippine Recruitment agency to process the deployment of their workers.</li>
+<li><input type="checkbox"> <strong>POEA Compliance Sheet,</strong> which should be signed by the employer in order to cover the Philippine requirements that are not covered by the employment contract</li>
+</ul>
+</blockquote>
+<h2 id="poea-phase-1">POEA phase 1</h2>
+<p>Everything in <a href="#common-documents">common documents</a> above, and the following:</p>
+<blockquote>
+<ul>
+<li><input type="checkbox"> <strong>Notarized statement</strong></li>
+<li><input type="checkbox"> <strong>Resume/CV</strong></li>
+<li><input type="checkbox"> <strong>PRC License</strong></li>
+<li><input type="checkbox"> <strong>Verified contract</strong> from POLO</li>
+<li><input type="checkbox"> <strong>Diploma</strong></li>
+<li><input type="checkbox"> <strong>POLO endorsement</strong></li>
+<li><input type="checkbox"> <strong>Proof of insurance</strong></li>
+</ul>
+</blockquote>
+<h2 id="poea-phase-2">POEA phase 2</h2>
+<blockquote>
+<ul>
+<li><input type="checkbox"> Pre-Departure Orientation Seminar (PDOS)</li>
+<li><input type="checkbox"> Pre-Employment Orientation Seminar (PEOS)</li>
+<li><input type="checkbox"> Pre-Employment Medical Exam (PEME)</li>
+<li><input type="checkbox"> POEA clearance</li>
+</ul>
 </blockquote>
 <p><br></p>
+<blockquote>
+<p>Next: <a href="docs/direct_hire.md">What is a direct hire</a>, and how do I get an OEC as a direct hire?</p>
+</blockquote>
 
                                 
                                 </section>
@@ -716,10 +864,14 @@
 
             
                 
-                <a href="pre_departure_orientation_seminar.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Pre-departure (PDOS)">
+                <a href="process_overview.html" class="navigation navigation-prev " aria-label="Previous page: Process overview">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
+                
+                <a href="direct_hire.html" class="navigation navigation-next " aria-label="Next page: Direct hires">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -728,7 +880,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Pre-employment (PEOS)","level":"3.1.2","depth":2,"next":{"title":"Other","level":"3.2","depth":1,"ref":"","articles":[{"title":"Medical exam (PEME)","level":"3.2.1","depth":2,"path":"docs/medical_exam.md","ref":"docs/medical_exam.md","articles":[]},{"title":"POEA Clearance","level":"3.2.2","depth":2,"ref":"","articles":[]}]},"previous":{"title":"Pre-departure (PDOS)","level":"3.1.1","depth":2,"path":"docs/pre_departure_orientation_seminar.md","ref":"docs/pre_departure_orientation_seminar.md","articles":[]},"dir":"ltr"},"config":{"plugins":["advanced-emoji","anchorjs","mermaid-gb3"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"mermaid-gb3":{},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchorjs":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"OEC Guide","gitbook":"*"},"file":{"path":"docs/pre_employment_orientation_seminar.md","mtime":"2018-05-29T15:17:05.974Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-30T01:33:20.282Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Requirements overview","level":"1.1.2","depth":2,"next":{"title":"Direct hires","level":"2.1","depth":1,"path":"docs/direct_hire.md","ref":"docs/direct_hire.md","articles":[{"title":"Direct hire ban","level":"2.1.1","depth":2,"path":"docs/direct_hire_exception.md","ref":"docs/direct_hire_exception.md","articles":[]},{"title":"POLO endorsement","level":"2.1.2","depth":2,"path":"docs/polo_endorsement.md","ref":"docs/polo_endorsement.md","articles":[]},{"title":"Evaluation requirements","level":"2.1.3","depth":2,"path":"docs/direct_hire_evaluation.md","ref":"docs/direct_hire_evaluation.md","articles":[]}]},"previous":{"title":"Process overview","level":"1.1.1","depth":2,"path":"docs/process_overview.md","ref":"docs/process_overview.md","articles":[]},"dir":"ltr"},"config":{"plugins":["advanced-emoji","anchorjs","mermaid-gb3"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"mermaid-gb3":{},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchorjs":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"OEC Guide","gitbook":"*"},"file":{"path":"docs/requirements_overview.md","mtime":"2018-05-30T01:20:10.500Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-30T01:33:20.282Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
