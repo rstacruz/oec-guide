@@ -35,4 +35,4 @@ Your best bet is to email the POLO that will process your documents. Ask for a s
 
 <br>
 
-> Next: [Submitting your requirements](./polo_verification.md)
+> Next: [Compnay certification](./company_certification.md)

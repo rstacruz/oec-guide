@@ -14,10 +14,10 @@
 
 * [Contract verification](docs/contract.md)
 
-  * [Requirements](docs/polo_requirements.md)
+  * [POLO locations](docs/polo_verification.md)
   * [Employment standards](docs/employment_standards.md)
   * [Contract addendum](docs/contract_addendum.md)
-  * [Submitting your requirements](docs/polo_verification.md)
+  * [Company certification](docs/company_certification.md)
 
 * [Phase 1 evaluation](docs/direct_hire_evaluation.md)
 

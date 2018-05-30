@@ -21,10 +21,10 @@ PEME[<b>PEME</b><br>Medical exam]
 click PEME "./medical_exam.html" "Medical exam"
 
 CONTRACT(<b>POLO<br>Contract<br>verification</b>)
-click CONTRACT "./polo_verification.html" "Contract verification"
+click CONTRACT "./contract.html" "Contract verification"
 
 VERIFIED["<b>Verified contract</b><br>Verified by the<br>POLO (PH Overseas<br>Labor Office)"]
-click VERIFIED "./polo_verification.html" "Verified contract"
+click VERIFIED "./contract.html" "Verified contract"
 
 EMPLOYMENTCONTRACT["<b>Employment contract</b><br>With POEA-required<br>revisions"]
 ADDENDUM["<b>Contract addendum</b><br>if needed"]

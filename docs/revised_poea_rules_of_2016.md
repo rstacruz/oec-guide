@@ -10,7 +10,7 @@ Revised POEA rules and regulations governing the recruitment and employment of l
 
 * **Section 124** (page 31) <br> This lists excemptions for he ban on direct hiring. This is also available on [POEA Memorandum Circular No. 08 of 2018](./memorandum_circular_08.md). (See [Direct Hire exception notes](./direct_hire_exception.md) for notes on this exemption.)
 
-* **Section 135** (page 35) <br> This lists the "Minimum provisions for employment contracts," which are what you'll need for [POLO Verification](./polo_verification.md).
+* **Section 135** (page 35) <br> This lists the "Minimum provisions for employment contracts," which are what you'll need for [POLO contract verification](./contract.md).
 
 ## Finding this document
 

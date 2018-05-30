@@ -1,4 +1,4 @@
-# _POLO contract verification_ Submitting your requirements
+# _POLO contract verification_ POLO locations
 
 OEC and contract verification services are available through POLO (Philippine Overseas Labor Office) offices. Some countries may have this, and some may not.
 
@@ -30,5 +30,3 @@ For other countries, look for the nearest POLO office. For example:
 :warning: The domain names aren't always `.gov.ph`, be sure to do your research to verify if the websites are official. I can't vouch for the authenticity of the websites above.
 
 <br>
-
-> Next: [POLO requirements](./polo_requirements.md)
