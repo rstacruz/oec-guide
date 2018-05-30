@@ -18,7 +18,7 @@
 
       	- Others requirements in Section 135
 
-* <input type='checkbox'> **[Contract verification](./polo_verification.md)** &mdash; Get your employment contract "red-ribboned":
+* <input type='checkbox'> **[Contract verification](./contract.md)** &mdash; Get your employment contract "red-ribboned":
 
       	- Get your employer to mail your contract to the nearest POLO office
 

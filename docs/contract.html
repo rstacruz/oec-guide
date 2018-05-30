@@ -67,7 +67,7 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="polo_requirements.html" />
+    <link rel="next" href="polo_verification.html" />
     
     
     <link rel="prev" href="polo_endorsement.html" />
@@ -210,12 +210,12 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="2.1.1" data-path="polo_requirements.html">
+        <li class="chapter " data-level="2.1.1" data-path="polo_verification.html">
             
-                <a href="polo_requirements.html">
+                <a href="polo_verification.html">
             
                     
-                    Requirements
+                    POLO locations
             
                 </a>
             
@@ -249,12 +249,12 @@
             
         </li>
     
-        <li class="chapter " data-level="2.1.4" data-path="polo_verification.html">
+        <li class="chapter " data-level="2.1.4" data-path="company_certification.html">
             
-                <a href="polo_verification.html">
+                <a href="company_certification.html">
             
                     
-                    Submitting your requirements
+                    Company certification
             
                 </a>
             
@@ -636,26 +636,92 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="polo-contract-verification">POLO contract verification</h1>
-<p>You need a verified contract from POLO.</p>
+<p>You need a verified contract from the Philippine Overseas Labor Office (POLO) associated with your employer&apos;s country. This verified contract is part of POEA&apos;s requirements for direct hire evaluation.</p>
+<h2 id="to-do">To do</h2>
+<ol>
+<li><p>Find the POLO office for your employer&apos;s country.</p>
+</li>
+<li><p>Inquire to them through email.</p>
+</li>
+<li><p>Gather all the documents they require. See the <a href="#requirements">required documents list</a> below.</p>
+</li>
+<li><p>Talk to your employer about getting a <a href="contract_addendum.html">contract addendum</a>.</p>
+</li>
+<li><p>Submit all of these to your POLO via email.</p>
+</li>
+<li><p>...TODO</p>
+</li>
+</ol>
 <h2 id="process">Process</h2>
-<blockquote>
-<p>TODO: I&apos;m still inquiring about this.</p>
-</blockquote>
 <div class="mermaid">
 sequenceDiagram
   participant POEA
-  participant Employee
+  participant Employee as Employee (You!)
   participant Employer
   participant POLO
 
-  Employee--&gt;Employer: Negotiate on revisions
-  Employer-&gt;&gt;POLO: Mail contract for verification
-  Note over POLO: Verify contract
-  POLO-&gt;&gt;Employer: Mail verified contract back
+  Note over Employee: Find the POLO office (1)
+
+  Employee-&gt;&gt;+POLO: Inquire via email (2)
+  Note left of POLO: POLO will tell you your requirements and the associated fees.
+  POLO-&gt;&gt;-Employee: -
+
+  Note over Employee: Gather required documents (3)
+  Employee--&gt;Employer: Negotiate on an addendum (4)
+
+  Employee-&gt;&gt;+POLO: Submit requirements via email (5)
+  POLO-&gt;&gt;-Employee: -
+
+  Employer-&gt;&gt;+POLO: Mail contract for verification
+  Employee-&gt;&gt;POLO: Pay fees (?)
+  Note over POLO: POLO will verify your contract.
+  POLO-&gt;&gt;-Employer: Mail verified contract back
   Employer-&gt;&gt;Employee: Mail contract back to PH
+
+  Note over Employee: You finally have<br>your verified<br>contract!
   Employee-&gt;&gt;POEA: Submit for evaluation
 </div>
 
+<h2 id="requirements">Requirements</h2>
+<p>These are the documents required by POLO for a contract verification. Be sure to inquire with POLO to get a list suited for you! In my experience, this list can differ, depending on the country and your circumstances.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Item</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><input type="checkbox"></td>
+<td><strong>Employment contract</strong> <br> Signed on all pages by the employer and the employee.</td>
+</tr>
+<tr>
+<td><input type="checkbox"></td>
+<td><strong><a href="contract_addendum.html">Contract addendum</a></strong> <br> For extra provisions not covered by the employment contract (if necessary)</td>
+</tr>
+<tr>
+<td><input type="checkbox"></td>
+<td><strong>Your passport</strong></td>
+</tr>
+<tr>
+<td><input type="checkbox"></td>
+<td><strong>Your visa</strong></td>
+</tr>
+<tr>
+<td><input type="checkbox"></td>
+<td><strong>Business registration</strong> of employer</td>
+</tr>
+<tr>
+<td><input type="checkbox"></td>
+<td><strong>Employer&apos;s ID</strong> (passport or driver&apos;s license)</td>
+</tr>
+<tr>
+<td><input type="checkbox"></td>
+<td><strong><a href="company_certification.html">Company certification</a></strong></td>
+</tr>
+</tbody>
+</table>
 <p><br></p>
 <blockquote>
 <p>Next: Negotiate on revisions by ensuring your work contract follows <a href="employment_standards.html">POEA employment standards</a>.</p>
@@ -692,7 +758,7 @@ sequenceDiagram
                 </a>
                 
                 
-                <a href="polo_requirements.html" class="navigation navigation-next " aria-label="Next page: Requirements">
+                <a href="polo_verification.html" class="navigation navigation-next " aria-label="Next page: POLO locations">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -703,7 +769,7 @@ sequenceDiagram
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Contract verification","level":"2.1","depth":1,"next":{"title":"Requirements","level":"2.1.1","depth":2,"path":"docs/polo_requirements.md","ref":"docs/polo_requirements.md","articles":[]},"previous":{"title":"POLO endorsement","level":"1.2.2","depth":2,"path":"docs/polo_endorsement.md","ref":"docs/polo_endorsement.md","articles":[]},"dir":"ltr"},"config":{"plugins":["advanced-emoji","anchorjs","mermaid-gb3","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"advanced-emoji":{"embedEmojis":false},"anchorjs":{},"mermaid-gb3":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"OEC Guide","gitbook":"*"},"file":{"path":"docs/contract.md","mtime":"2018-05-30T07:28:47.597Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-30T14:27:40.219Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Contract verification","level":"2.1","depth":1,"next":{"title":"POLO locations","level":"2.1.1","depth":2,"path":"docs/polo_verification.md","ref":"docs/polo_verification.md","articles":[]},"previous":{"title":"POLO endorsement","level":"1.2.2","depth":2,"path":"docs/polo_endorsement.md","ref":"docs/polo_endorsement.md","articles":[]},"dir":"ltr"},"config":{"plugins":["advanced-emoji","anchorjs","mermaid-gb3","-fontsettings"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"advanced-emoji":{"embedEmojis":false},"anchorjs":{},"mermaid-gb3":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"OEC Guide","gitbook":"*"},"file":{"path":"docs/contract.md","mtime":"2018-05-30T17:19:14.321Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-30T17:19:17.371Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
