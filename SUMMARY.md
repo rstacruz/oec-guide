@@ -27,7 +27,7 @@
   * Company profile
   * Country-specific requirements
 
-* Phase 2 evaluation
+* [Phase 2 evaluation](docs/evaluation_phase_2.md)
 
   * [Pre-departure (PDOS)](docs/pre_departure_orientation_seminar.md)
   * [Pre-employment (PEOS)](docs/pre_employment_orientation_seminar.md)
