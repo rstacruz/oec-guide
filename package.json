@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gitbook serve",
-    "build": "gitbook build",
+    "build": "rm -rf _book; gitbook build",
     "build:pdf": "gitbook pdf ./ _book/oec-guide.pdf",
     "deploy:gh-pages": "gh-pages -d _book",
     "deploy": "run-s build deploy:gh-pages"

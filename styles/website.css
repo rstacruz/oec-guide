@@ -49,6 +49,11 @@
   }
 }
 
+.markdown-section {
+  /* Don't clip wide figures */
+  overflow: visible;
+}
+
 /*
  * Headings
  */
@@ -694,4 +699,14 @@ svg g.node[title] {
 svg g.node[title]:hover rect {
   stroke-width: 2px;
   stroke: dodgerblue;
+}
+
+@media (min-width: 768px) {
+  .wide-figure {
+    border-radius: 3px;
+    padding: 24px;
+    margin-left: -64px;
+    margin-right: -64px;
+    box-shadow: 0 1px 2px #3458;
+  }
 }
