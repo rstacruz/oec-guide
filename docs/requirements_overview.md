@@ -28,7 +28,7 @@ click VERIFIED "./contract.html" "Verified contract"
 
 EMPLOYMENTCONTRACT["<b>Employment contract</b><br>With POEA-required<br>revisions"]
 ADDENDUM["<b>Contract addendum</b><br>if needed"]
-click ADDENDUM "./cnotract_addendum.html" "Contract addendum"
+click ADDENDUM "./contract_addendum.html" "Contract addendum"
 
 CERTIFICATION["<b>Company certification</b><br>Showing they hired 5<br>Filipinos max"]
 
