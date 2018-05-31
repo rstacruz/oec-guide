@@ -20,11 +20,11 @@ This is cited as a requirement as part of POEA's [Direct hire evaluation require
 
 ## To do
 
-- Check if your profession requires a PRC license.
+- <input type='checkbox'> Check if your profession requires a PRC license.
 
-- Acquire a PRC license, if you don't have one yet.
+- <input type='checkbox'> Acquire a PRC license, if you don't have one yet.
 
-- Submit a copy of your license as part of the requirements for POEA evaluation phase 1.
+- <input type='checkbox'> Submit a copy of your license as part of the requirements for POEA evaluation phase 1.
 
 <br>
 
