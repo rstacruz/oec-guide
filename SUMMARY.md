@@ -18,6 +18,7 @@
   * [Employment standards](docs/employment_standards.md)
   * [Contract addendum](docs/contract_addendum.md)
   * [Company certification](docs/company_certification.md)
+  * [Employer ID](docs/employer_id.md)
 
 * [Phase 1 evaluation](docs/direct_hire_evaluation.md)
 

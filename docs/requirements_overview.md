@@ -110,14 +110,14 @@ style JOBDOCS fill:#333,stroke-width:0
 
 ## Items
 
-|                         | Item                                                                                                                                      | POLO<br>Verification | Eval<br>Phase 1 | Eval<br>Phase 2 |
+|                         | Item                                                                                                                                      | A | B | C |
 | ---                     | ---                                                                                                                                       | ---                  | ---             | ---             |
 | <input type='checkbox'> | **Your passport** <br> Must be valid for at least 6 months                                                                                | x                    | x               |                 |
 | <input type='checkbox'> | **Your visa** <br> Visa or entry permit                                                                                                   | x                    | x               |                 |
 | <input type='checkbox'> | **Business registration** <br> of the employer                                                                                            | x                    | x               |                 |
 | <input type='checkbox'> | **Employment contract** <br> Signed on all pages by the employer and employee                                                             | x                    |                 |                 |
 | <input type='checkbox'> | **[Contract addendum](./contract_addendum.md)** <br> (If needed) additions to the work contract to conform to POEA standards              | x                    |                 |                 |
-| <input type='checkbox'> | **Employer's ID** <br> Passport or driver's license                                                                                       | x                    |                 |                 |
+| <input type='checkbox'> | **[Employer's ID](./employer_id.md)** <br> Passport or driver's license                                                                                       | x                    |                 |                 |
 | <input type='checkbox'> | **Company certification** <br> Showing that they hired 5 Filipinos max, and that they haven't dealt with a Philippine recruitement agency | x                    |                 |                 |
 | <input type='checkbox'> | **[Notarized statement](./notarized_statement.md)** <br> Describing how you found your work abroad                                        |                      | x               |                 |
 | <input type='checkbox'> | **Resume/CV**                                                                                                                             |                      | x               |                 |
@@ -133,6 +133,8 @@ style JOBDOCS fill:#333,stroke-width:0
 | <input type='checkbox'> | **[PEME](./medical_exam.md)**, Pre-Employment Medical Exam                                                                                |                      |                 | x               |
 | <input type='checkbox'> | **POEA clearance**                                                                                                                        |                      |                 | x               |
 
+`A` - [POLO contract verification](./contract.md), `B` - [POEA evaluation phase 1](./direct_hire_evaluatian.md), `C` - [POEA evaluation phase 2](./evaluation_phase_2.md)
+
 ## Direct hire
 
 The process and requirements described here are for "direct hires"&mdash;that is, workers who acquired work without the intercession of a recruitment agency. As of May 2018, POEA has a ban on processing direct hire applications, and you need to prove that you're exempted as a skilled worker.
@@ -142,3 +144,4 @@ See [Direct hire](./direct_hire.md) to understand what a "Direct Hire" is, and h
 <br>
 
 > Next: [What is a direct hire](./direct_hire.md), and how do I get an OEC as a direct hire?
+```
