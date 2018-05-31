@@ -1,5 +1,5 @@
 {
-  "title": "OEC Guide",
+  "title": "Rico's OEC Guidebook",
   "plugins": ["advanced-emoji", "anchorjs", "mermaid-gb3", "-fontsettings", "edit-link"],
   "pluginsConfig": {
     "edit-link": {

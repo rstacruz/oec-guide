@@ -968,10 +968,6 @@ gitbook-plugin-edit-link@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/gitbook-plugin-edit-link/-/gitbook-plugin-edit-link-2.0.2.tgz#d8fcd927eced81e7a662a72d59db609eafd7e72f"
 
-gitbook-plugin-github@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/gitbook-plugin-github/-/gitbook-plugin-github-3.0.0.tgz#67457df98a57ea8ef9b2518b88340db370a5317b"
-
 gitbook-plugin-mermaid-gb3@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/gitbook-plugin-mermaid-gb3/-/gitbook-plugin-mermaid-gb3-2.1.0.tgz#f2efc846021e527295d5fb723093e5db25f796a0"
