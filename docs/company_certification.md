@@ -24,9 +24,11 @@ may be accredited up to a maximum of five (5) licensed recruitment agencies, (..
 >
 > *&mdash; Taken from [POEA Revised Rules and Regulations of 2016](./revised_poea_rules_of_2016.md), part III, section 108, page 28*
 
-## What to do with this document
+## To do
 
-Work with your employer to obtain this document. Pass it onto POLO as part of the requirements they ask for a contract verification.
+- <input type='checkbox'> Work with your employer to obtain this document.
+
+- <input type='checkbox'> Pass it onto POLO as part of the requirements they ask for a contract verification.
 
 <br>
 

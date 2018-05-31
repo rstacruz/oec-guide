@@ -4,7 +4,7 @@
 
 > ![image](https://user-images.githubusercontent.com/74385/40553682-013785c2-6076-11e8-9967-4e80b2fff72c.png)
 >
-> Taken from the [Revised POEA Rules and Regulations of 2016](./revised_poea_rules_of_2016.md), sections 123 to 124 (page 31). This exemption was also re-inforced in [Memorandum Circular No. 08 of 2018](./memorandum_circular_08.md), section I(d)(2).
+> *&mdash; Taken from the [Revised POEA Rules and Regulations of 2016](./revised_poea_rules_of_2016.md), sections 123 to 124 (page 31). This exemption was also re-inforced in [Memorandum Circular No. 08 of 2018](./memorandum_circular_08.md), section I(d)(2).*
 
 ## Skilled worker exemption
 

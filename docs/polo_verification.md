@@ -26,6 +26,8 @@ For other countries, look for the nearest POLO office. For example:
 * [Singapore](https://www.philippine-embassy.org.sg/labor/overseas-employment-certificate-oec/) _(philippine-embassy.org.sg)_
 * [Brunei](http://www.bruneipe.dfa.gov.ph/overseas-employment-certificate-oec/88-labour-section) _(bruneipe.dfa.gov.ph)_
 * [Dubai](http://www.polodubaiportal.org/how-to-apply-for-oec/) _(polodubaiportal.org)_
+* [Hawaii](http://honolulupcg.dfa.gov.ph/2014-05-15-08-30-49) _(honolulu.dfa.gov.ph)_
+* [Japan](http://polotokyo.dole.gov.ph/issuance-of-balik-manggawa/) _(polotokyo.dole.gov.ph)_
 
 :warning: The domain names aren't always `.gov.ph`, be sure to do your research to verify if the websites are official. I can't vouch for the authenticity of the websites above.
 

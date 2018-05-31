@@ -49,8 +49,11 @@ EMPLOYERID["<b>Employer's ID</b><br>Drivers license or passport"]
 
 JOBDOCS(" ")
 CV["<b>Resume / CV</b>"]
-PRC["<b>PRC License</b><br>(PH Regulatory Commission)"]
-DIPLOMA["<b>Diploma</b><br>and Transcript of Records"]
+PRC["<b>PRC License</b><br>(Professional Regulatory Commission)"]
+click PRC "./prc_license.html" "PRC license"
+
+DIPLOMA["<b>Diploma</b>"]
+TRANSCRIPT["<b>Transcript of Records</b>"]
 PROFILE["<b>Company profile</b><br>and business license of employer"]
 
 OEC === EVAL2
@@ -72,6 +75,7 @@ JOBDOCS --- CV
 JOBDOCS --- PRC
 JOBDOCS === VERIFIED
 JOBDOCS --- DIPLOMA
+JOBDOCS --- TRANSCRIPT
 JOBDOCS --- ENDORSEMENT
 JOBDOCS --- INSURANCE
 end
@@ -110,28 +114,28 @@ style JOBDOCS fill:#333,stroke-width:0
 
 ## Items
 
-|                         | Item                                                                                                                                      | A | B | C |
-| ---                     | ---                                                                                                                                       | ---                  | ---             | ---             |
-| <input type='checkbox'> | **Your passport** <br> Must be valid for at least 6 months                                                                                | x                    | x               |                 |
-| <input type='checkbox'> | **Your visa** <br> Visa or entry permit                                                                                                   | x                    | x               |                 |
-| <input type='checkbox'> | **Business registration** <br> of the employer                                                                                            | x                    | x               |                 |
-| <input type='checkbox'> | **Employment contract** <br> Signed on all pages by the employer and employee                                                             | x                    |                 |                 |
-| <input type='checkbox'> | **[Contract addendum](./contract_addendum.md)** <br> (If needed) additions to the work contract to conform to POEA standards              | x                    |                 |                 |
-| <input type='checkbox'> | **[Employer's ID](./employer_id.md)** <br> Passport or driver's license                                                                                       | x                    |                 |                 |
-| <input type='checkbox'> | **Company certification** <br> Showing that they hired 5 Filipinos max, and that they haven't dealt with a Philippine recruitement agency | x                    |                 |                 |
-| <input type='checkbox'> | **[Notarized statement](./notarized_statement.md)** <br> Describing how you found your work abroad                                        |                      | x               |                 |
-| <input type='checkbox'> | **Resume/CV**                                                                                                                             |                      | x               |                 |
-| <input type='checkbox'> | **PRC license**, if applicable                                                                                                            |                      | x               |                 |
-| <input type='checkbox'> | **Verified contract** from POLO                                                                                                           |                      | x               |                 |
-| <input type='checkbox'> | **Diploma**                                                                                                                               |                      | x               |                 |
-| <input type='checkbox'> | **Transcript of records**                                                                                                                 |                      | x               |                 |
-| <input type='checkbox'> | **[POLO endorsement](./polo_endorsement.md)**                                                                                             |                      | x               |                 |
-| <input type='checkbox'> | **[Proof of insurance](./proof_of_insurance.md)**                                                                                         |                      | x               |                 |
-| <input type='checkbox'> | Country-specific requirements <br> for USA, Canada, Middle East, and African countries                                                    |                      | x               |                 |
-| <input type='checkbox'> | **[PDOS](./pre_departure_orientation_seminar.md)**, Pre-Departure Orientation Seminar                                                     |                      |                 | x               |
-| <input type='checkbox'> | **[PEOS](./pre_employment_orientation_seminar.md)**, Pre-Employment Orientation Seminar                                                   |                      |                 | x               |
-| <input type='checkbox'> | **[PEME](./medical_exam.md)**, Pre-Employment Medical Exam                                                                                |                      |                 | x               |
-| <input type='checkbox'> | **POEA clearance**                                                                                                                        |                      |                 | x               |
+|                         | Item                                                                                                                                      | A   | B   | C   |
+| ---                     | ---                                                                                                                                       | --- | --- | --- |
+| <input type='checkbox'> | **Your passport** <br> Must be valid for at least 6 months                                                                                | x   | x   |     |
+| <input type='checkbox'> | **Your visa** <br> Visa or entry permit                                                                                                   | x   | x   |     |
+| <input type='checkbox'> | **Business registration** <br> of the employer                                                                                            | x   | x   |     |
+| <input type='checkbox'> | **Employment contract** <br> Signed on all pages by the employer and employee                                                             | x   |     |     |
+| <input type='checkbox'> | **[Contract addendum](./contract_addendum.md)** <br> (If needed) additions to the work contract to conform to POEA standards              | x   |     |     |
+| <input type='checkbox'> | **[Employer's ID](./employer_id.md)** <br> Passport or driver's license                                                                   | x   |     |     |
+| <input type='checkbox'> | **Company certification** <br> Showing that they hired 5 Filipinos max, and that they haven't dealt with a Philippine recruitement agency | x   |     |     |
+| <input type='checkbox'> | **[Notarized statement](./notarized_statement.md)** <br> Describing how you found your work abroad                                        |     | x   |     |
+| <input type='checkbox'> | **Resume/CV**                                                                                                                             |     | x   |     |
+| <input type='checkbox'> | **[NC II/PRC license](./prc_license.md)**, if applicable                                                                                  |     | x   |     |
+| <input type='checkbox'> | **Verified contract** from POLO                                                                                                           |     | x   |     |
+| <input type='checkbox'> | **Diploma**                                                                                                                               |     | x   |     |
+| <input type='checkbox'> | **Transcript of records**                                                                                                                 |     | x   |     |
+| <input type='checkbox'> | **[POLO endorsement](./polo_endorsement.md)**                                                                                             |     | x   |     |
+| <input type='checkbox'> | **[Proof of insurance](./proof_of_insurance.md)**                                                                                         |     | x   |     |
+| <input type='checkbox'> | Country-specific requirements <br> for USA, Canada, Middle East, and African countries                                                    |     | x   |     |
+| <input type='checkbox'> | **[PDOS](./pre_departure_orientation_seminar.md)**, Pre-Departure Orientation Seminar                                                     |     |     | x   |
+| <input type='checkbox'> | **[PEOS](./pre_employment_orientation_seminar.md)**, Pre-Employment Orientation Seminar                                                   |     |     | x   |
+| <input type='checkbox'> | **[PEME](./medical_exam.md)**, Pre-Employment Medical Exam                                                                                |     |     | x   |
+| <input type='checkbox'> | **POEA clearance**                                                                                                                        |     |     | x   |
 
 `A` - [POLO contract verification](./contract.md), `B` - [POEA evaluation phase 1](./direct_hire_evaluatian.md), `C` - [POEA evaluation phase 2](./evaluation_phase_2.md)
 

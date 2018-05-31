@@ -34,14 +34,14 @@ Your best bet is to email the POLO that will process your documents. Ask for a s
 
 ## To do
 
-- Review the sample addendums.
+- <input type='checkbox'> Review the sample addendums.
 
-- Have your employer and you agree upon terms needed in the addendum.
+- <input type='checkbox'> Have your employer and you agree upon terms needed in the addendum.
 
-- Have this addendum signed by both parties.
+- <input type='checkbox'> Have this addendum signed by both parties.
 
-- Send a copy of this, along with the other requirements, to POLO for your contract verification.
+- <input type='checkbox'> Send a copy of this, along with the other requirements, to POLO for your contract verification.
 
 <br>
 
-> Next: [Compnay certification](./company_certification.md)
+> Next: [Company certification](./company_certification.md)

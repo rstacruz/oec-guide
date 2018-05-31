@@ -18,6 +18,12 @@ The same list is also available in [Memorandum Circular No. 08 of 2018](./memora
 >
 > <small>Taken from [Memorandum Circular No. 08, Series of 2018, Implementing Guidelines on the Regisrtation of Direct-Hire OFWs](./memorandum_circular_08.md), page 2, section II.</small>
 
+## To do
+
+- <input type='checkbox'> Review if your work contract has provisions for the employment standards above.
+
+- <input type='checkbox'> If it doesn't have all the required provisions (which is usually the case!), secure a [contract addendum](./contract_addendum.md) from your employer.
+
 <br>
 
 > Next: Get a [contract addendum](./contract_addendum.md) to account for clauses that may not be in your original work contract.

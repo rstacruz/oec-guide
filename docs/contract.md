@@ -1,18 +1,18 @@
-# POLO contract verification
+# _POLO_ Contract verification
 
 You need a verified contract from the Philippine Overseas Labor Office (POLO) associated with your employer's country. This verified contract is part of POEA's requirements for direct hire evaluation.
 
 ## To do
 
-1.  Find the POLO office for your employer's country.
+1.  <input type='checkbox'> Find the [POLO office](./polo_locations.md) for your employer's country.
 
-2.  Inquire to them through email.
+2.  <input type='checkbox'> Inquire to them through email.
 
-3.  Gather all the documents they require. See the [required documents list](#requirements) below.
+3.  <input type='checkbox'> Gather all the documents they require. See the [required documents list](#requirements) below.
 
-4.  Talk to your employer about getting a [contract addendum](./contract_addendum.md).
+4.  <input type='checkbox'> Talk to your employer about getting a [contract addendum](./contract_addendum.md).
 
-5.  Submit all of these to your POLO via email.
+5.  <input type='checkbox'> Submit all of these to your POLO via email.
 
 6.  ...TODO
 

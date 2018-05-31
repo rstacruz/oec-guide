@@ -1,6 +1,6 @@
 # Summary
 
-* [OEC Guide](README.md)
+* [Rico's OEC Guidebook](README.md)
 
   * [Process overview](docs/process_overview.md)
   * [Requirements overview](docs/requirements_overview.md)
@@ -24,7 +24,7 @@
 
   * [Proof of insurance](docs/proof_of_insurance.md)
   * [Notarized statement](docs/notarized_statement.md)
-  * PRC license
+  * [NC II/PRC license](docs/prc_license.md)
   * Company profile
   * Country-specific requirements
 
