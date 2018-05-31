@@ -4,11 +4,8 @@
 
   * [Process overview](docs/process_overview.md)
   * [Requirements overview](docs/requirements_overview.md)
-
-* [Direct hires](docs/direct_hire.md)
-
+  * [Direct hires](docs/direct_hire.md)
   * [Skilled worker exemption](docs/direct_hire_exception.md)
-  * [POLO endorsement](docs/polo_endorsement.md)
 
 ### Process
 
@@ -19,13 +16,14 @@
   * [Contract addendum](docs/contract_addendum.md)
   * [Company certification](docs/company_certification.md)
   * [Employer ID](docs/employer_id.md)
+  * Business registration
 
 * [Phase 1 evaluation](docs/direct_hire_evaluation.md)
 
   * [Proof of insurance](docs/proof_of_insurance.md)
   * [Notarized statement](docs/notarized_statement.md)
   * [NC II/PRC license](docs/prc_license.md)
-  * Company profile
+  * [POLO endorsement](docs/polo_endorsement.md)
   * Country-specific requirements
 
 * [Phase 2 evaluation](docs/evaluation_phase_2.md)
