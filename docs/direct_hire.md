@@ -1,4 +1,4 @@
-# _OEC guidebook_ Direct hires
+# _Introduction_ Direct hires
 
 POEA processes OEC's for **Agency Hires** and **Direct Hires.** If you didn't get your work visa through a recruitment agency, then you're a direct hire.
 
