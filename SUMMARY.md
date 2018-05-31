@@ -20,7 +20,7 @@
   * [Contract addendum](docs/contract_addendum.md)
   * [Company certification](docs/company_certification.md)
   * [Employer ID](docs/employer_id.md)
-  * Business registration
+  * [Business registration](docs/business_registration.md)
 
 * [Phase 1 evaluation](docs/direct_hire_evaluation.md)
 
@@ -42,7 +42,7 @@
 * Locations
 
   * [POEA direct hire department](docs/direct_hire_department.md)
-  * POLO
+  * [POLO locations](docs/polo_verification.md)
 
 * POEA documents
 
