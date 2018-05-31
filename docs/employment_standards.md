@@ -8,7 +8,7 @@ Your employment contract should have all the provisions defined in the "Employme
 
 > ![image](https://user-images.githubusercontent.com/74385/40554478-6c8a76fc-6078-11e8-995e-ef304e51322e.png)
 >
-> <small>Taken from [Revised POEA Rules and Regulations 2016](./revised_poea_rules_of_2016.md), page 35, part V, section 135.</small>
+> *&mdash; Taken from [Revised POEA Rules and Regulations 2016](./revised_poea_rules_of_2016.md), page 35, part V, section 135.*
 
 ## 2018 citation
 
