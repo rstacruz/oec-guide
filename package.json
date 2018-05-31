@@ -9,7 +9,8 @@
     "build": "rm -rf _book; gitbook build",
     "build:pdf": "gitbook pdf ./ _book/oec-guide.pdf",
     "deploy:gh-pages": "gh-pages -d _book",
-    "deploy": "run-s build deploy:gh-pages"
+    "deploy": "run-s build deploy:gh-pages",
+    "wordcount": "git ls-files '*.md' | xargs cat | wc -w"
   },
   "keywords": [],
   "author": "Rico Sta. Cruz <rstacruz@users.noreply.github.com>",
@@ -18,6 +19,7 @@
     "gitbook-cli": "^2.3.2",
     "gitbook-plugin-advanced-emoji": "^0.2.2",
     "gitbook-plugin-anchorjs": "^2.0.0",
+    "gitbook-plugin-edit-link": "^2.0.2",
     "gitbook-plugin-mermaid-gb3": "^2.1.0"
   },
   "devDependencies": {

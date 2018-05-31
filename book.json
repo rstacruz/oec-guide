@@ -1,4 +1,13 @@
 {
   "title": "OEC Guide",
-  "plugins": ["advanced-emoji", "anchorjs", "mermaid-gb3", "-fontsettings"]
+  "plugins": ["advanced-emoji", "anchorjs", "mermaid-gb3", "-fontsettings", "edit-link"],
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/rstacruz/oec-guide/edit/master",
+      "label": "Edit"
+    },
+    "github": {
+      "url": "https://github.com/rstacruz/oec-guide"
+    }
+  }
 }
