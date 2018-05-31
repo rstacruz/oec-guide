@@ -22,15 +22,15 @@ Me->>POEA: (05/16) Inquire
 Me->>POEA: (05/28) Inquire again
 Me->>+POLO: (05/29) Inquire (email)
 Me->>+Employer: (05/30) Request for Company certification
-Me-->POLO: (05/30) Follow-up questions
+Me->>POLO: (05/30) Follow-up questions
 Me->>+Employer: (05/31) Request for Contract amendment
-Me-->POLO: (05/31) Follow-up questions
+Me->>POLO: (05/31) Follow-up questions
 
 Note over Employer,POEA: -
 
-POLO->>-Me: (?) Got answers
-Employer->>-Me: (?) Got document
-Employer->>-Me: (?) Got document
+POLO-->-Me: (?) Got answers
+Employer-->-Me: (?) Got document
+Employer-->-Me: (?) Got document
 
 Me->>+Employer: (?) Request Employer ID
 deactivate Employer
