@@ -20,31 +20,31 @@ You need a verified contract from the Philippine Overseas Labor Office (POLO) as
 
 ```mermaid
 sequenceDiagram
-  participant POEA
-  participant Employee as Employee (You!)
-  participant Employer
-  participant POLO
+participant POEA
+participant Employee as Employee (You!)
+participant Employer
+participant POLO
 
-  Note over Employee: Find the POLO office (1)
+Note over Employee: Find the POLO office (1)
 
-  Employee->>+POLO: Inquire via email (2)
-  Note left of POLO: POLO will tell you your requirements and the associated fees.
-  POLO->>-Employee: -
+Employee->>+POLO: Inquire via email (2)
+Note left of POLO: POLO will tell you your requirements and the associated fees.
+POLO->>-Employee: -
 
-  Note over Employee: Gather required documents (3)
-  Employee-->Employer: Negotiate on an addendum (4)
+Note over Employee: Gather required documents (3)
+Employee-->Employer: Negotiate on an addendum (4)
 
-  Employee->>+POLO: Submit requirements via email (5)
-  POLO->>-Employee: -
+Employee->>+POLO: Submit requirements via email (5)
+POLO->>-Employee: -
 
-  Employer->>+POLO: Mail contract for verification
-  Employee->>POLO: Pay fees (?)
-  Note over POLO: POLO will verify your contract.
-  POLO->>-Employer: Mail verified contract back
-  Employer->>Employee: Mail contract back to PH
+Employer->>+POLO: Mail contract for verification
+Employee->>POLO: Pay fees (?)
+Note over POLO: POLO will verify your contract.
+POLO->>-Employer: Mail verified contract back
+Employer->>Employee: Mail contract back to PH
 
-  Note over Employee: You finally have<br>your verified<br>contract!
-  Employee->>POEA: Submit for evaluation
+Note over Employee: You finally have<br>your verified<br>contract!
+Employee->>POEA: Submit for evaluation
 ```
 
 ## Requirements

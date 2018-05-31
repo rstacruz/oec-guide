@@ -55,3 +55,7 @@
 
   * [ONAR Bulletin Vol. 8 No. 19](docs/effectivity_of_memorandum_circular_08.md)
   * [Health facilities](docs/health_facilities.md)
+
+* Etc
+
+  * [Rico's timeline](docs/rico_timeline.md)
