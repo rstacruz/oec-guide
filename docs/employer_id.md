@@ -4,11 +4,11 @@ An employer's ID is required by both POLO and POEA for 2 different processes.
 
 - It's required by the POLO for [contract verification](./contract.md).
 
-- It's required by the POEA as an attachment to your [Notarized statement](./notarized_statement.md).
+- It's required by the POEA as an attachment to your [Notarized statement](./notarized_statement.md), which is a formal statement detailing how you got your employment.
 
 ## POLO requirement
 
-POLO requires an ID from your employer's HR Manager or company Director.
+POLO requires an ID from your employer's **HR Manager** or company **Director**.
 
 > "Yes we require a copy of the employer's passport or drivers license that can be that of the HR Manager or the Director of the company."
 >
