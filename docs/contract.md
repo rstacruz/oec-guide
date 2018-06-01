@@ -53,12 +53,12 @@ These are the documents required by POLO for a contract verification. Be sure to
 
 |                         | Item                                                                                                    |
 | ----------------------- | ------------------------------------------------------------------------------------------------------- |
-| <input type='checkbox'> | **Employment contract** <br> Signed on all pages by the employer and the employee.                      |
-| <input type='checkbox'> | **[Contract addendum]** <br> For extra provisions not covered by the employment contract (if necessary) |
+| <input type='checkbox'> | **Employment contract,** signed on all pages by the employer and the employee.                          |
+| <input type='checkbox'> | **[Contract addendum],** for extra provisions not covered by the employment contract (if necessary)     |
 | <input type='checkbox'> | **Your passport**                                                                                       |
 | <input type='checkbox'> | **Your visa**                                                                                           |
-| <input type='checkbox'> | **Business registration** of employer                                                                   |
-| <input type='checkbox'> | **[Employer's ID]** <br> Passport or driver's license                                                        |
+| <input type='checkbox'> | **[Business registration]** of employer                                                                 |
+| <input type='checkbox'> | **[Employer's ID]** (passport or driver's license)                                                      |
 | <input type='checkbox'> | **[Company certification]**                                                                             |
 
 <br>
@@ -67,4 +67,5 @@ These are the documents required by POLO for a contract verification. Be sure to
 
 [contract addendum]: ./contract_addendum.md
 [company certification]: ./company_certification.md
-[Employer's ID]: ./employer_id.md
+[employer's id]: ./employer_id.md
+[business registration]: ./business_registration.md
