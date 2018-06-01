@@ -25,10 +25,10 @@ Me->>+Employer: (05/30) Request for Company certification
 Me->>POLO: (05/30) Follow-up questions
 Me->>+Employer: (05/31) Request for Contract amendment
 Me->>POLO: (05/31) Follow-up questions
+POLO-->-Me: (06/01) Got all answers
 
 Note over Employer,POEA: -
 
-POLO-->-Me: (?) Got answers
 Employer-->-Me: (?) Got document
 Employer-->-Me: (?) Got document
 
