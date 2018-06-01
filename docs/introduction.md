@@ -28,8 +28,8 @@ Start((Start))
 Start --> HasAgency("Do you have a recruitment agency?")
 HasAgency -.-> |Yes| UseAgency["Talk to them"]
 HasAgency --> |No| HasOEC("Is this your first time getting an OEC?")
-HasOEC -.-> |Yes| UseBM["Use bmonline.ph"]
-HasOEC --> |No| IsLocal("Are you in the Philippines?")
+HasOEC -.-> |No| UseBM["Use bmonline.ph"]
+HasOEC --> |Yes| IsLocal("Are you in the Philippines?")
 IsLocal -.-> |No| TalkToPOLO["Talk to your local POLO"]
 IsLocal --> |Yes| Read(("Read on!"))
 ```
