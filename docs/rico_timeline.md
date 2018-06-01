@@ -8,6 +8,12 @@
 | May 29 | Inquire at POLO Canberra                           | -     |
 | May 30 | Request **Company certification** from my employer | A     |
 | May 31 | Request **Contract amendment** from my employer    | A     |
+| Jun 1  | Request **Employer's ID** from my employer         | A     |
+| ---    | ---                                                | ---   |
+| `TODO` | Receive **Company certification**                  | A     |
+| `TODO` | Receive **Contract amendment**                     | A     |
+| `TODO` | Receive **Employer's ID**                          | A     |
+| `TODO` | Submit for evaluation                              | A     |
 
 ## Diagram
 
@@ -25,15 +31,15 @@ Me->>+Employer: (05/30) Request for Company certification
 Me->>POLO: (05/30) Follow-up questions
 Me->>+Employer: (05/31) Request for Contract amendment
 Me->>POLO: (05/31) Follow-up questions
+Me->>+Employer: (06/01) Request Employer ID
 POLO-->-Me: (06/01) Got all answers
 
 Note over Employer,POEA: -
 
 Employer-->-Me: (?) Got document
 Employer-->-Me: (?) Got document
+Employer-->-Me: (?) Got document
 
-Me->>+Employer: (?) Request Employer ID
-deactivate Employer
 Me->>+POLO: Request for evaluation
 deactivate POLO
 ```

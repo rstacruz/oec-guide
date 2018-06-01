@@ -1,6 +1,6 @@
 # _Introduction_ What's an OEC?
 
-<figure class='right-figure' style='float: right; margin: 0 0 1em 1em;'> <img src='https://user-images.githubusercontent.com/74385/40666424-3c47ade4-6392-11e8-994a-3ae78d638024.png' width='300'></figure>
+<figure class='right-figure' style='float: right; margin: 0 0 1em 1em;'> <img src='../images/oec_sample.png' width='300'></figure>
 
 
 **An OEC is your exit clearance out of the Philippines.** If you have a work visa abroad, the Bureau of Immigration in Philippine airports will not let you leave the Philippines without an OEC.

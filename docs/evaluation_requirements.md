@@ -2,7 +2,7 @@
 
 As of May 27th of 2018, the POEA has a new list of requirements for evaluation. This document is not available online; it's only available in the _Direct Hire_ department of the POEA offices in EDSA.
 
-> ![image](https://user-images.githubusercontent.com/74385/40605234-4645800e-6294-11e8-92d0-5544680a1750.png)
+> ![image](checklist_for_direct_hire_evaluation.png)
 
 ## Finding this document
 
