@@ -70,7 +70,7 @@ POEA issued a memorandum in May 2018 that reiterates the rules in 2016. This per
 
 ## TL;DR
 
-**Skilled workers are allowed to be directly hired without a recruitment agency,** contrary to what some government agencies may say.
+**Skilled workers are allowed to be directly hired without a recruitment agency,** contrary to what some government agencies may say. As of May 2018, your best citation is the [Memorandum Circular No. 08 of 2018](./memorandum_circular_08.md).
 
 <br>
 
