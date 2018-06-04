@@ -707,7 +707,7 @@ svg g.node[title]:hover rect {
   stroke: dodgerblue;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .wide-figure {
     border-radius: 3px;
     padding: 24px;
@@ -719,5 +719,12 @@ svg g.node[title]:hover rect {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media (min-width: 769px) {
+  .markdown-section .right-figure {
+    float: right;
+    margin: 0 0 1em 1em;
   }
 }

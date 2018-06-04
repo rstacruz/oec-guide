@@ -36,15 +36,24 @@ sequenceDiagram
   participant Employee
   participant POEA as POEA
 
+    Employee->>POEA: Inquire
+    Employee->>POLO: Inquire
+
+    Note over POLO,POEA: -
+
     Employee->>+POLO: Send contract (via employer)
     Note right of POLO: Verify contract
     POLO->>-Employee: Send contract (via employer)
     POLO->>Employee: Send endorsement letter
 
+    Note over POLO,POEA: -
+
     Note over Employee: Collect more requirements
     Employee->>+POEA: Send docs for evaluation
     Note left of POEA: Evaluation phase 1
     POEA->>-Employee: Approve phase 1
+
+    Note over POLO,POEA: -
 
     Note over Employee: Do seminars
     Note over Employee: Medical exam
