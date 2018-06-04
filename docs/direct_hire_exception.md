@@ -74,4 +74,4 @@ POEA issued a memorandum in May 2018 that reiterates the rules in 2016. This per
 
 <br>
 
-> Next: You need to secure a [POLO endorsement](./polo_endorsement.md) to verify that you're exempted from the ban.
+> Back to [Table of Contents](../SUMMARY.md)

@@ -3,3 +3,5 @@
 > TODO: I'm still researching about this.
 
 <br>
+
+> Back to [Table of Contents](../SUMMARY.md)
