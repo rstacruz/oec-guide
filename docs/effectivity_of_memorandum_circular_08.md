@@ -6,9 +6,9 @@ As of May 28, 2018, the [Memorandum Circular No. 08, Series of 2018, Implementin
 
 The memorandum was filed to the Office of the National Adiministrative Register on the May 10th of 2018. This can be seen in [ONAR Bulletin Nov. 8 No. 19](http://law.upd.edu.ph/wp-content/uploads/2016/03/BULLETIN-8-19-2018.pdf), which covers memorandums filed from May 7th to May 11th of 2018.
 
-> ![image](onar_bulletin_1.png)
+> ![image](../images/onar_bulletin_1.png)
 >
-> ![image](onar_bulletin_2.png)
+> ![image](../images/onar_bulletin_2.png)
 
 ## Effectivity period
 
