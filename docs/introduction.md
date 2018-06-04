@@ -44,6 +44,6 @@ This document outlines how you can get an OEC as a direct hire. This guide makes
 
 <br>
 
-> Next: [Process overview](./docs/process_overview.md)
+> Next: [Process overview](./process_overview.md)
 
 [bmonline.ph]: http://www.bmonline.ph/
