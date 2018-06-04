@@ -25,7 +25,7 @@ participant Employee as Employee (You!)
 participant Employer
 participant POLO
 
-Note over Employee: Find the POLO office (1)
+Note over Employee: Find the nearest POLO office (1)
 
 Employee->>+POLO: Inquire via email (2)
 Note left of POLO: POLO will tell you your requirements and the associated fees.
