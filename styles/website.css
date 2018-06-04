@@ -730,9 +730,25 @@ svg g.node[title]:hover rect {
   }
 }
 
+/*
+ * Glossary terms:
+ * Undo the link-like highlighting and make it look like <abbr>
+ */
+
 .markdown-section a.glossary-term,
 .markdown-section a.glossary-term:visited {
   color: #333;
   text-decoration: none;
   border-bottom: dashed 1px #3333;
+}
+
+/*
+ * Space above h1:
+ * Add some extra space so the first load looks cool
+ */
+
+ @media (min-width: 769px) {
+  .markdown-section > :first-child {
+    margin-top: 32px !important;
+  }
 }
