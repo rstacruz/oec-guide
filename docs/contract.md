@@ -61,6 +61,8 @@ These are the documents required by POLO for a contract verification. Be sure to
 | <input type='checkbox'> | **[Employer's ID]** (passport or driver's license)                                                      |
 | <input type='checkbox'> | **[Company certification]**                                                                             |
 
+Much of this list is based on [email correspondences with POLO Australia](./polo_australia_correspondence.md) on May 2018. Be sure to inquire with your nearest POLO office.
+
 <br>
 
 > Next: Negotiate on revisions by ensuring your work contract follows [POEA employment standards](employment_standards.md).
