@@ -1,29 +1,29 @@
-## PRC
+## The PRC
 
 Professional Regulation Commission
 
 A Philippine government agency in charge of issuing licenses for certain professions, such as engineering, nursing, and medical practitioners. Their website is at [prc.gov.ph](http://prc.gov.ph/).
 
-## POEA
+## The POEA
 
 Philippine Overseas Employment Agency
 
-## POLO
+## The POLO
 
 Philippine Overseas Labor Office
 
-## NC II
+## The NC II
 
 National Certificate II
 
-## OEC
+## The OEC
 
 Overseas Employment Certificate
 
-## OFW
+## The OFW
 
 Overseas Filipino Worker
 
-## CFO
+## The CFO
 
 Commission of Filipinos Overseas

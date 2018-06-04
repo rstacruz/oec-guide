@@ -6,11 +6,11 @@
 
 It's typically the most difficult part of the process, even harder than getting a work visa in another country. It's a process that spans at least 3 government agencies across 2-3 countries to obtain a certificate that's valid for 2 months.
 
-I'm documenting every step of the process I took. Hopefully this'd help someone in the future!
+I've documented every step of the process I took. Hopefully this'd help someone in the future!
 
 *&mdash; Rico Sta. Cruz (@rstacruz)*
 
-## What you'll find in here
+## What's in this book
 
 - A comprehensive list of [all requirements](docs/requirements_overview.md) I needed.
 

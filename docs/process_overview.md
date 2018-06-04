@@ -32,34 +32,34 @@ There are 3 main phases involved in getting an Overseas Employment Certificate.
 
 ```mermaid
 sequenceDiagram
-  participant POLO as POLO
-  participant Employee
-  participant POEA as POEA
+participant POLO as POLO
+participant Employee
+participant POEA as POEA
 
-    Employee->>POEA: Inquire
-    Employee->>POLO: Inquire
+Employee->>POEA: Inquire
+Employee->>POLO: Inquire
 
-    Note over POLO,POEA: -
+Note over POLO,POEA: -
 
-    Employee->>+POLO: Send contract (via employer)
-    Note right of POLO: Verify contract
-    POLO->>-Employee: Send contract (via employer)
-    POLO->>Employee: Send endorsement letter
+Employee->>+POLO: Send contract (via employer)
+Note right of POLO: Verify contract
+POLO->>-Employee: Send contract (via employer)
+POLO->>Employee: Send endorsement letter
 
-    Note over POLO,POEA: -
+Note over POLO,POEA: -
 
-    Note over Employee: Collect more requirements
-    Employee->>+POEA: Send docs for evaluation
-    Note left of POEA: Evaluation phase 1
-    POEA->>-Employee: Approve phase 1
+Note over Employee: Collect more requirements
+Employee->>+POEA: Send docs for evaluation
+Note left of POEA: Evaluation phase 1
+POEA->>-Employee: Approve phase 1
 
-    Note over POLO,POEA: -
+Note over POLO,POEA: -
 
-    Note over Employee: Do seminars
-    Note over Employee: Medical exam
-    Employee->>+POEA: Send new docs for evaluation
-    Note left of POEA: Evaluation phase 2
-    POEA->>-Employee: Final approval
+Note over Employee: Do seminars
+Note over Employee: Medical exam
+Employee->>+POEA: Send new docs for evaluation
+Note left of POEA: Evaluation phase 2
+POEA->>-Employee: Final approval
 ```
 
 <br>

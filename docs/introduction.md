@@ -23,13 +23,12 @@ Aside from being your exit clearance, the OEC ensures that you are a documented,
 ```mermaid
 graph TD
 Start((Start))
-
 Start --> HasAgency("Do you have a recruitment agency?")
 HasAgency -.-> |Yes| UseAgency["Talk to them"]
-HasAgency --> |No| HasOEC("Is this your first time getting an OEC?")
-HasOEC -.-> |No| UseBM["Use bmonline.ph"]
-HasOEC --> |Yes| IsLocal("Are you in the Philippines?")
-IsLocal -.-> |No| TalkToPOLO["Talk to your local POLO"]
+HasAgency --> |No| HasOec("Is this your first time getting an OEC?")
+HasOec -.-> |No| UseBM["Use bmonline.ph"]
+HasOec --> |Yes| IsLocal("Are you in the Philippines?")
+IsLocal -.-> |No| TalkToPolo["Talk to your local POLO"]
 IsLocal --> |Yes| Read(("Read on!"))
 ```
 
