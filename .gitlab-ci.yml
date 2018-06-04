@@ -2,5 +2,13 @@ image: node:slim
 
 test_build:
   script:
-   - yarn
-   - yarn run build
+    - yarn
+    - yarn run build
+
+# GitLab pages
+# https://gitlab.com/help/user/project/pages/getting_started_part_two.md
+pages:
+  script:
+    - yarn
+    - yarn run build
+    - mv _book public
