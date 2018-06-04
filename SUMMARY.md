@@ -66,5 +66,5 @@
 * **Other documents**
 
   * [ONAR Bulletin Vol. 8 No. 19](docs/effectivity_of_memorandum_circular_08.md)
-  * [Email correspondences with POLO Australia](docs/polo_australia_correpondence.md)
+  * [Email correspondences with POLO Australia](docs/polo_australia_correspondence.md)
   * [Health facilities](docs/health_facilities.md)

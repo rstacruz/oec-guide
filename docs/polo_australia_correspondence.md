@@ -4,6 +4,8 @@ I inquired with POLO Australia, here are some of the information they've relayed
 
 ## Verification requirements
 
+When I inquired about OEC's and contract verification requirements, here was their reply:
+
 > Yes you need to secure an OEC before departing from the Philippines.
 >
 > In order for the POEA to issue your OEC you need to present to them your verified and authenticated employment documents.
@@ -28,8 +30,6 @@ I inquired with POLO Australia, here are some of the information they've relayed
 > Thank you.
 >
 > *&mdash; from a Labor & Employment Officer, email dated May 29, 2018*
-
-(By the way: I also inquired in POEA Mandaluyong on how to secure a POEA Compliance Sheet, and said that they can't issue that unless you have a verified contract.)
 
 ## Contract addendums
 
