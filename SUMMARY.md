@@ -10,7 +10,7 @@
   * [Process overview](docs/process_overview.md)
   * [Requirements overview](docs/requirements_overview.md)
   * [Direct hires](docs/direct_hire.md)
-  * [Skilled worker exemption](docs/direct_hire_exception.md)
+  * [Direct hire ban history](docs/direct_hire_exception.md)
 
 ----
 
