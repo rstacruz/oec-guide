@@ -1,0 +1,6 @@
+image: node:slim
+
+test_build:
+  script:
+   - yarn
+   - yarn run build
