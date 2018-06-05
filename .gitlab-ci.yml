@@ -9,4 +9,4 @@ pages:
     - mv _book public
   artifacts:
     paths:
-      - pubic
+      - public
