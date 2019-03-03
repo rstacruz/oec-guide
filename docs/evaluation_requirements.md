@@ -6,7 +6,9 @@ As of May 27th of 2018, the POEA has a new list of requirements for evaluation. 
 
 ## Finding this document
 
-As of May 2018, this document is not available online. The only way to acquire this document is to go to the [POEA direct hire department](./direct_hire_department.md) in EDSA, Mandaluyong.
+As of June 2018, this document is now online as part of [Advisory No. 33 Series of 2018](http://www.poea.gov.ph/advisories/2018/Advisory-33-2018.pdf).
+
+~~As of May 2018, this document is not available online. The only way to acquire this document is to go to the [POEA direct hire department](./direct_hire_department.md) in EDSA, Mandaluyong.~~
 
 :warning: The list of requirements on the POEA [(here)](./skilled_worker_requirements_outdated.md) is outdated and deprecated.
 

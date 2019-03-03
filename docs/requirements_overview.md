@@ -25,7 +25,7 @@ Here's a list of items required by both POLO (`A`) and POEA (`B` and `C`).
 | <input type='checkbox'> | **[PEME]** <br> Pre-Employment Medical Exam                                                                                                 |     |     | x   |
 | <input type='checkbox'> | **POEA clearance**                                                                                                                          |     |     | x   |
 
-`A` - [POLO contract verification](./contract.md), `B` - [POEA evaluation phase 1](./direct_hire_evaluatian.md), `C` - [POEA evaluation phase 2](./evaluation_phase_2.md)
+`A` - [POLO contract verification](./contract.md), `B` - [POEA evaluation phase 1](./direct_hire_evaluation.md), `C` - [POEA evaluation phase 2](./evaluation_phase_2.md)
 
 [business registration]: ./company_certification.md
 [contract addendum]: ./contract_addendum.md
