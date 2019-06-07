@@ -1,6 +1,6 @@
 # _Introduction_ Direct hire ban history
 
-**Government agencies may claim that there's a ban on direct hires. This is not completely true: there are excemptions to this ban..** The POEA today has a ban on processing OEC requests from direct hires. However, skilled workers are exempted from this ban since 2016, and this was reinforced in 2018.
+**Government agencies may claim that there's a ban on direct hires. This is not completely true: there are excemptions to this ban.** The POEA today has a ban on processing OEC requests from direct hires. However, skilled workers are exempted from this ban since 2016, and this was reinforced in 2018.
 
 > ![image](../images/poea_rules_2016_section_124.png)
 >
