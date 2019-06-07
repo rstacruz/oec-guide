@@ -42,12 +42,14 @@
 
 ----
 
+<!--
 * **My experience**
 
   * [Commentary](docs/commentary.md)
   * [Timeline of events](docs/rico_timeline.md)
 
 ----
+-->
 
 ### Appendices
 
